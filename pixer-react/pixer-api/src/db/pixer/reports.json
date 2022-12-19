@@ -1,0 +1,59 @@
+[
+  {
+    "id": 3,
+    "user_id": 3,
+    "model_type": "Marvel\\Database\\Models\\Review",
+    "model_id": 19,
+    "message": "One morning, when Gregor Samsa woke from troubled dreams",
+    "created_at": "2022-08-25T08:05:46.000000Z",
+    "updated_at": "2022-08-25T08:05:46.000000Z",
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 2,
+    "user_id": 3,
+    "model_type": "Marvel\\Database\\Models\\Review",
+    "model_id": 11,
+    "message": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam",
+    "created_at": "2022-08-25T08:05:33.000000Z",
+    "updated_at": "2022-08-25T08:05:33.000000Z",
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 1,
+    "user_id": 3,
+    "model_type": "Marvel\\Database\\Models\\Review",
+    "model_id": 17,
+    "message": "This is a abusive report",
+    "created_at": "2022-08-25T08:02:51.000000Z",
+    "updated_at": "2022-08-25T08:02:51.000000Z",
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  }
+]

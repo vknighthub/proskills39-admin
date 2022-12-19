@@ -1,0 +1,4171 @@
+[
+  {
+    "id": 34,
+    "user_id": 6,
+    "shop_id": 5,
+    "product_id": 45,
+    "question": "Is it gutenberg based or elementor based?",
+    "answer": "It is gutenberg based.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:09:56.000000Z",
+    "updated_at": "2022-05-11T08:28:15.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 45,
+      "name": "StoryHub WordPress Blog Theme",
+      "slug": "storyhub-wordpress-blog-theme-2",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 59,
+      "shop_id": 5,
+      "sale_price": 55,
+      "language": "en",
+      "min_price": 59,
+      "max_price": 59,
+      "sku": "8978d7f9e7f/we*f7/7f/ew7*f/w7we*/fwfweffwe",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 520,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/image05.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/conversions/image05-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 521,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/image05.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/conversions/image05-thumbnail.jpg"
+        },
+        {
+          "id": 522,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/conversions/image27-thumbnail.jpg"
+        },
+        {
+          "id": 523,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/image36.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/conversions/image36-thumbnail.jpg"
+        },
+        {
+          "id": 524,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/conversions/image43-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:31:12.000000Z",
+      "updated_at": "2022-03-05T13:33:04.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 45,
+        "attachment_id": 525,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/523/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 45,
+        "created_at": "2022-01-27T17:31:12.000000Z",
+        "updated_at": "2022-03-05T13:33:04.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 33,
+    "user_id": 6,
+    "shop_id": 6,
+    "product_id": 46,
+    "question": "This plugin can i create special fields for choose options or only to show some information above the fields like in the Bike DEMO, example, have a Resources label in this demo, above this label i can show some information, only to ready not to interact?",
+    "answer": "We are using Wordpress underscore templating system for our search result / grid template \n\nYou can check Wordpress official docs for their templating from here \n\nhttps://codex.wordpress.org/Javascript_Reference/wp.template\n\nand here is a great tutorial to learn the templating system\n\nhttps://lkwdwrd.com/wp-template-js-templates-wp",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:09:30.000000Z",
+    "updated_at": "2022-05-11T09:10:59.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 46,
+      "name": "RNB Modern Laravel React Rental System",
+      "slug": "rnb-modern-laravel-react-rental-system",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 29,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 29,
+      "max_price": 29,
+      "sku": "d84f89sd4gf894g/r7egre4er65g1er65g1er56g+++55",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 514,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/image07.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/conversions/image07-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 515,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/image07.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/conversions/image07-thumbnail.jpg"
+        },
+        {
+          "id": 516,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 517,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/image18.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/conversions/image18-thumbnail.jpg"
+        },
+        {
+          "id": 518,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/conversions/image27-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:32:43.000000Z",
+      "updated_at": "2022-03-05T13:32:29.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 46,
+        "attachment_id": 519,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/517/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 46,
+        "created_at": "2022-01-27T17:32:43.000000Z",
+        "updated_at": "2022-03-05T13:32:29.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 32,
+    "user_id": 6,
+    "shop_id": 9,
+    "product_id": 47,
+    "question": "Modify Grid Template in Reactive pro?",
+    "answer": "Here are some of the useful FAQ to help you to modify Reactive Grid template or search result or grid layout\n\nFirst go to the below URL\n\nhttps://redq.gitbooks.io/reactive-pro-advance-searching-filtering/content/faq.html",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:08:43.000000Z",
+    "updated_at": "2022-05-11T09:11:48.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 47,
+      "name": "Reactify Searching Engine",
+      "slug": "reactify-searching-engine",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 55,
+      "shop_id": 9,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 55,
+      "max_price": 55,
+      "sku": "9fd4fdg47sd/8g94fdsfgsd",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 508,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/image06.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/conversions/image06-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 509,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/image02.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/conversions/image02-thumbnail.jpg"
+        },
+        {
+          "id": 510,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 511,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 512,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/image06.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/conversions/image06-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:33:59.000000Z",
+      "updated_at": "2022-03-05T13:31:56.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 47,
+        "attachment_id": 513,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/511/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 47,
+        "created_at": "2022-01-27T17:33:59.000000Z",
+        "updated_at": "2022-03-05T13:31:56.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 31,
+    "user_id": 6,
+    "shop_id": 8,
+    "product_id": 48,
+    "question": "When will you add new demo?",
+    "answer": "We are working on it and will try to add new demo as early as possible.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:08:07.000000Z",
+    "updated_at": "2022-05-11T09:12:48.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 48,
+      "name": "MagazzinePro  Lyfestyle Blog Template",
+      "slug": "magazzinepro-lyfestyle-blog-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 4,
+      "price": 35,
+      "shop_id": 8,
+      "sale_price": 30,
+      "language": "en",
+      "min_price": 35,
+      "max_price": 35,
+      "sku": "8sa4dfg84ea/e/e7gg4er4gre5g1er5g1re3g20eg0",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 502,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/image04.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/conversions/image04-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 503,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 504,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 505,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/image08.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/conversions/image08-thumbnail.jpg"
+        },
+        {
+          "id": 506,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/conversions/image11-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:36:06.000000Z",
+      "updated_at": "2022-03-05T13:31:15.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 2,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 48,
+        "attachment_id": 507,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/505/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 48,
+        "created_at": "2022-01-27T17:36:06.000000Z",
+        "updated_at": "2022-03-05T13:31:15.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 30,
+    "user_id": 6,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "Is it compatible with the latest version of WP?",
+    "answer": "yes it is compatible with latest version of WordPress",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:07:39.000000Z",
+    "updated_at": "2022-05-11T09:19:37.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 29,
+    "user_id": 6,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "Do you have any react version of the theme?",
+    "answer": "Hi\nUnfortunately we do not have react version of the template.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:03:07.000000Z",
+    "updated_at": "2022-05-11T09:26:47.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 28,
+    "user_id": 6,
+    "shop_id": 8,
+    "product_id": 51,
+    "question": "What technologies have been used in this template?",
+    "answer": "It is based on React , NextJs and tailwind CSS",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:02:38.000000Z",
+    "updated_at": "2022-05-11T09:27:11.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 51,
+      "name": "Borobazar React Next Grocery Template",
+      "slug": "borobazar-react-next-grocery-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 69,
+      "shop_id": 8,
+      "sale_price": 65,
+      "language": "en",
+      "min_price": 69,
+      "max_price": 69,
+      "sku": "89g4erg48948941ger1g1ergwreg",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 494,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/image52.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/conversions/image52-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 484,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/image35.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/conversions/image35-thumbnail.jpg"
+        },
+        {
+          "id": 485,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/conversions/image43-thumbnail.jpg"
+        },
+        {
+          "id": 486,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/image45.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/conversions/image45-thumbnail.jpg"
+        },
+        {
+          "id": 487,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/image52.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/conversions/image52-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:40:14.000000Z",
+      "updated_at": "2022-03-05T12:53:03.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 51,
+        "attachment_id": 495,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/493/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 51,
+        "created_at": "2022-01-27T17:40:14.000000Z",
+        "updated_at": "2022-03-05T12:53:03.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 27,
+    "user_id": 6,
+    "shop_id": 7,
+    "product_id": 49,
+    "question": "Home page Search/Select search page?",
+    "answer": "You Can select it from the back end of the Flutter settings.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:01:54.000000Z",
+    "updated_at": "2022-05-11T09:28:12.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 49,
+      "name": "ChawkBazar Laravel Flutter Mobile App",
+      "slug": "chawkbazar-laravel-flutter-mobile-app",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 3,
+      "price": 39,
+      "shop_id": 7,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 39,
+      "max_price": 39,
+      "sku": "984a8sd4f89sd4f9s48s984v81a1v8df1v",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 394,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/Rectangle-773.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/conversions/Rectangle-773-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 395,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/Rectangle-773.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/conversions/Rectangle-773-thumbnail.jpg"
+        },
+        {
+          "id": 396,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/Rectangle-778.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/conversions/Rectangle-778-thumbnail.jpg"
+        },
+        {
+          "id": 397,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/Rectangle-782.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/conversions/Rectangle-782-thumbnail.jpg"
+        },
+        {
+          "id": 398,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/Rectangle-785.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/conversions/Rectangle-785-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:37:27.000000Z",
+      "updated_at": "2022-02-03T13:22:37.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 49,
+        "attachment_id": 399,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/399/DOCUMENTATION.pdf",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 49,
+        "created_at": "2022-01-27T17:37:27.000000Z",
+        "updated_at": "2022-02-03T13:22:37.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 26,
+    "user_id": 6,
+    "shop_id": 7,
+    "product_id": 49,
+    "question": "Is it a fully functional flutter app?",
+    "answer": "yes it is a fully functional flutter application",
+    "deleted_at": null,
+    "created_at": "2022-05-11T08:01:36.000000Z",
+    "updated_at": "2022-05-11T09:29:51.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 49,
+      "name": "ChawkBazar Laravel Flutter Mobile App",
+      "slug": "chawkbazar-laravel-flutter-mobile-app",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 3,
+      "price": 39,
+      "shop_id": 7,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 39,
+      "max_price": 39,
+      "sku": "984a8sd4f89sd4f9s48s984v81a1v8df1v",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 394,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/Rectangle-773.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/conversions/Rectangle-773-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 395,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/Rectangle-773.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/conversions/Rectangle-773-thumbnail.jpg"
+        },
+        {
+          "id": 396,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/Rectangle-778.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/conversions/Rectangle-778-thumbnail.jpg"
+        },
+        {
+          "id": 397,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/Rectangle-782.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/conversions/Rectangle-782-thumbnail.jpg"
+        },
+        {
+          "id": 398,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/Rectangle-785.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/conversions/Rectangle-785-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:37:27.000000Z",
+      "updated_at": "2022-02-03T13:22:37.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 49,
+        "attachment_id": 399,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/399/DOCUMENTATION.pdf",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 49,
+        "created_at": "2022-01-27T17:37:27.000000Z",
+        "updated_at": "2022-02-03T13:22:37.000000Z"
+      }
+    },
+    "user": {
+      "id": 6,
+      "name": "customer 3",
+      "email": "customer2@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T07:20:42.000000Z",
+      "updated_at": "2022-05-11T07:20:42.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 25,
+    "user_id": 5,
+    "shop_id": 5,
+    "product_id": 45,
+    "question": "Do you have shopify version of the theme?",
+    "answer": "Unfortunately we do not have any shopify version of the theme",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:17:49.000000Z",
+    "updated_at": "2022-05-11T09:30:12.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 45,
+      "name": "StoryHub WordPress Blog Theme",
+      "slug": "storyhub-wordpress-blog-theme-2",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 59,
+      "shop_id": 5,
+      "sale_price": 55,
+      "language": "en",
+      "min_price": 59,
+      "max_price": 59,
+      "sku": "8978d7f9e7f/we*f7/7f/ew7*f/w7we*/fwfweffwe",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 520,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/image05.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/conversions/image05-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 521,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/image05.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/conversions/image05-thumbnail.jpg"
+        },
+        {
+          "id": 522,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/conversions/image27-thumbnail.jpg"
+        },
+        {
+          "id": 523,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/image36.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/conversions/image36-thumbnail.jpg"
+        },
+        {
+          "id": 524,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/conversions/image43-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:31:12.000000Z",
+      "updated_at": "2022-03-05T13:33:04.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 45,
+        "attachment_id": 525,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/523/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 45,
+        "created_at": "2022-01-27T17:31:12.000000Z",
+        "updated_at": "2022-03-05T13:33:04.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 24,
+    "user_id": 5,
+    "shop_id": 6,
+    "product_id": 46,
+    "question": "Can I use any theme?",
+    "answer": "Any theme that supports woocommerce custom product type can be used with this item. you may need to do some additional css design.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:17:15.000000Z",
+    "updated_at": "2022-05-11T09:30:52.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 46,
+      "name": "RNB Modern Laravel React Rental System",
+      "slug": "rnb-modern-laravel-react-rental-system",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 29,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 29,
+      "max_price": 29,
+      "sku": "d84f89sd4gf894g/r7egre4er65g1er65g1er56g+++55",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 514,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/image07.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/conversions/image07-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 515,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/image07.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/conversions/image07-thumbnail.jpg"
+        },
+        {
+          "id": 516,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 517,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/image18.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/conversions/image18-thumbnail.jpg"
+        },
+        {
+          "id": 518,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/conversions/image27-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:32:43.000000Z",
+      "updated_at": "2022-03-05T13:32:29.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 46,
+        "attachment_id": 519,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/517/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 46,
+        "created_at": "2022-01-27T17:32:43.000000Z",
+        "updated_at": "2022-03-05T13:32:29.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 23,
+    "user_id": 5,
+    "shop_id": 6,
+    "product_id": 46,
+    "question": "How to create demo like apollo hospital demo",
+    "answer": "Please open a support ticket and our technical support team will guide you.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:17:01.000000Z",
+    "updated_at": "2022-05-11T09:31:13.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 46,
+      "name": "RNB Modern Laravel React Rental System",
+      "slug": "rnb-modern-laravel-react-rental-system",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 29,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 29,
+      "max_price": 29,
+      "sku": "d84f89sd4gf894g/r7egre4er65g1er65g1er56g+++55",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 514,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/image07.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/conversions/image07-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 515,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/image07.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/conversions/image07-thumbnail.jpg"
+        },
+        {
+          "id": 516,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 517,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/image18.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/conversions/image18-thumbnail.jpg"
+        },
+        {
+          "id": 518,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/conversions/image27-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:32:43.000000Z",
+      "updated_at": "2022-03-05T13:32:29.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 46,
+        "attachment_id": 519,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/517/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 46,
+        "created_at": "2022-01-27T17:32:43.000000Z",
+        "updated_at": "2022-03-05T13:32:29.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 22,
+    "user_id": 5,
+    "shop_id": 9,
+    "product_id": 47,
+    "question": "Why map loading time is different from browser to browser?",
+    "answer": "It varies from browser to browser and hence you will always get different loading times.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:16:31.000000Z",
+    "updated_at": "2022-05-11T09:31:47.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 47,
+      "name": "Reactify Searching Engine",
+      "slug": "reactify-searching-engine",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 55,
+      "shop_id": 9,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 55,
+      "max_price": 55,
+      "sku": "9fd4fdg47sd/8g94fdsfgsd",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 508,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/image06.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/conversions/image06-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 509,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/image02.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/conversions/image02-thumbnail.jpg"
+        },
+        {
+          "id": 510,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 511,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 512,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/image06.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/conversions/image06-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:33:59.000000Z",
+      "updated_at": "2022-03-05T13:31:56.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 47,
+        "attachment_id": 513,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/511/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 47,
+        "created_at": "2022-01-27T17:33:59.000000Z",
+        "updated_at": "2022-03-05T13:31:56.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 21,
+    "user_id": 5,
+    "shop_id": 9,
+    "product_id": 47,
+    "question": "Do you have Woocommerce support?",
+    "answer": "Yes, this item is woocommerce supported",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:15:50.000000Z",
+    "updated_at": "2022-05-11T09:32:10.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 47,
+      "name": "Reactify Searching Engine",
+      "slug": "reactify-searching-engine",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 55,
+      "shop_id": 9,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 55,
+      "max_price": 55,
+      "sku": "9fd4fdg47sd/8g94fdsfgsd",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 508,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/image06.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/conversions/image06-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 509,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/image02.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/conversions/image02-thumbnail.jpg"
+        },
+        {
+          "id": 510,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 511,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 512,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/image06.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/conversions/image06-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:33:59.000000Z",
+      "updated_at": "2022-03-05T13:31:56.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 47,
+        "attachment_id": 513,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/511/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 47,
+        "created_at": "2022-01-27T17:33:59.000000Z",
+        "updated_at": "2022-03-05T13:31:56.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 20,
+    "user_id": 5,
+    "shop_id": 8,
+    "product_id": 48,
+    "question": "Can I deploy it on cPanel?",
+    "answer": "Yes but we do not recommend cPanel or any managed server.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:15:29.000000Z",
+    "updated_at": "2022-05-11T09:32:33.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 48,
+      "name": "MagazzinePro  Lyfestyle Blog Template",
+      "slug": "magazzinepro-lyfestyle-blog-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 4,
+      "price": 35,
+      "shop_id": 8,
+      "sale_price": 30,
+      "language": "en",
+      "min_price": 35,
+      "max_price": 35,
+      "sku": "8sa4dfg84ea/e/e7gg4er4gre5g1er5g1re3g20eg0",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 502,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/image04.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/conversions/image04-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 503,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 504,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 505,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/image08.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/conversions/image08-thumbnail.jpg"
+        },
+        {
+          "id": 506,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/conversions/image11-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:36:06.000000Z",
+      "updated_at": "2022-03-05T13:31:15.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 2,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 48,
+        "attachment_id": 507,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/505/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 48,
+        "created_at": "2022-01-27T17:36:06.000000Z",
+        "updated_at": "2022-03-05T13:31:15.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 19,
+    "user_id": 5,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "Do you have multivendor support?",
+    "answer": "Yes, this item is multivendor supported",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:14:06.000000Z",
+    "updated_at": "2022-05-11T09:33:03.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 18,
+    "user_id": 5,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "Do you have elementor support?",
+    "answer": "Unfortunately we do not have elementor support.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:13:53.000000Z",
+    "updated_at": "2022-05-11T09:33:19.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 17,
+    "user_id": 5,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "Does it support woocommerce as well?",
+    "answer": "Hi\nYes this item is woocommerce supported.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:13:44.000000Z",
+    "updated_at": "2022-05-11T09:33:38.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 16,
+    "user_id": 5,
+    "shop_id": 8,
+    "product_id": 51,
+    "question": "I need some additional pages. Will you be able to add them for me? like category page, sale product page etc.",
+    "answer": "We have forwarded your request to our team for them to have a look into the feasability of adding such pages in our future updates.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:11:43.000000Z",
+    "updated_at": "2022-05-11T09:34:15.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 51,
+      "name": "Borobazar React Next Grocery Template",
+      "slug": "borobazar-react-next-grocery-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 69,
+      "shop_id": 8,
+      "sale_price": 65,
+      "language": "en",
+      "min_price": 69,
+      "max_price": 69,
+      "sku": "89g4erg48948941ger1g1ergwreg",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 494,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/image52.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/conversions/image52-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 484,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/image35.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/conversions/image35-thumbnail.jpg"
+        },
+        {
+          "id": 485,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/conversions/image43-thumbnail.jpg"
+        },
+        {
+          "id": 486,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/image45.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/conversions/image45-thumbnail.jpg"
+        },
+        {
+          "id": 487,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/image52.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/conversions/image52-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:40:14.000000Z",
+      "updated_at": "2022-03-05T12:53:03.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 51,
+        "attachment_id": 495,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/493/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 51,
+        "created_at": "2022-01-27T17:40:14.000000Z",
+        "updated_at": "2022-03-05T12:53:03.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 15,
+    "user_id": 5,
+    "shop_id": 6,
+    "product_id": 52,
+    "question": "Is there any Flutter version of the item?",
+    "answer": "Unfortunaltey we only have Joomla version only.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T06:09:39.000000Z",
+    "updated_at": "2022-05-11T09:34:36.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 52,
+      "name": "ShppingPro Joomla Template",
+      "slug": "shppingpro-joomla-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 3,
+      "price": 0,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 0,
+      "max_price": 0,
+      "sku": "8d4f7g7re/g7/7rew8g7wre/g74re84regw89re4",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 477,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/475/image01.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/475/conversions/image01-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 478,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/476/image05.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/476/conversions/image05-thumbnail.jpg"
+        },
+        {
+          "id": 479,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/477/image12.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/477/conversions/image12-thumbnail.jpg"
+        },
+        {
+          "id": 480,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/478/image14.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/478/conversions/image14-thumbnail.jpg"
+        },
+        {
+          "id": 481,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/479/image28.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/479/conversions/image28-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:41:47.000000Z",
+      "updated_at": "2022-08-09T08:11:14.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 0,
+      "total_reviews": 0,
+      "rating_count": [],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 52,
+        "attachment_id": 482,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/480/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 52,
+        "created_at": "2022-01-27T17:41:47.000000Z",
+        "updated_at": "2022-03-05T12:33:10.000000Z"
+      }
+    },
+    "user": {
+      "id": 5,
+      "name": "customer 2",
+      "email": "customer1@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-05-11T05:46:04.000000Z",
+      "updated_at": "2022-05-11T05:46:04.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 14,
+    "user_id": 3,
+    "shop_id": 5,
+    "product_id": 45,
+    "question": "Do you have React version of this theme?",
+    "answer": "Yes we do have react version of the theme",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:25:01.000000Z",
+    "updated_at": "2022-05-11T05:32:25.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 45,
+      "name": "StoryHub WordPress Blog Theme",
+      "slug": "storyhub-wordpress-blog-theme-2",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 59,
+      "shop_id": 5,
+      "sale_price": 55,
+      "language": "en",
+      "min_price": 59,
+      "max_price": 59,
+      "sku": "8978d7f9e7f/we*f7/7f/ew7*f/w7we*/fwfweffwe",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 520,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/image05.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/518/conversions/image05-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 521,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/image05.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/519/conversions/image05-thumbnail.jpg"
+        },
+        {
+          "id": 522,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/520/conversions/image27-thumbnail.jpg"
+        },
+        {
+          "id": 523,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/image36.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/521/conversions/image36-thumbnail.jpg"
+        },
+        {
+          "id": 524,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/522/conversions/image43-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:31:12.000000Z",
+      "updated_at": "2022-03-05T13:33:04.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 45,
+        "attachment_id": 525,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/523/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 45,
+        "created_at": "2022-01-27T17:31:12.000000Z",
+        "updated_at": "2022-03-05T13:33:04.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 13,
+    "user_id": 3,
+    "shop_id": 6,
+    "product_id": 46,
+    "question": "If a customer rent for example a car in our case the first day is for free. Is there any option to manage these case?",
+    "answer": "Hi The closest you can do is to set day range pricing like 1-1 days 0 then 2-5 days one price and so on",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:24:30.000000Z",
+    "updated_at": "2022-05-11T05:55:39.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 46,
+      "name": "RNB Modern Laravel React Rental System",
+      "slug": "rnb-modern-laravel-react-rental-system",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 29,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 29,
+      "max_price": 29,
+      "sku": "d84f89sd4gf894g/r7egre4er65g1er65g1er56g+++55",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 514,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/image07.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/conversions/image07-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 515,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/image07.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/conversions/image07-thumbnail.jpg"
+        },
+        {
+          "id": 516,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 517,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/image18.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/conversions/image18-thumbnail.jpg"
+        },
+        {
+          "id": 518,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/conversions/image27-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:32:43.000000Z",
+      "updated_at": "2022-03-05T13:32:29.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 46,
+        "attachment_id": 519,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/517/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 46,
+        "created_at": "2022-01-27T17:32:43.000000Z",
+        "updated_at": "2022-03-05T13:32:29.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 12,
+    "user_id": 3,
+    "shop_id": 6,
+    "product_id": 46,
+    "question": "Is it possible to book hotels with this script?",
+    "answer": "Yes depending on the fact that if the features that we have provided are sufficient for your hotel business.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:24:20.000000Z",
+    "updated_at": "2022-05-11T05:56:16.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 46,
+      "name": "RNB Modern Laravel React Rental System",
+      "slug": "rnb-modern-laravel-react-rental-system",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 29,
+      "shop_id": 6,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 29,
+      "max_price": 29,
+      "sku": "d84f89sd4gf894g/r7egre4er65g1er65g1er56g+++55",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 514,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/image07.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/512/conversions/image07-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 515,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/image07.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/513/conversions/image07-thumbnail.jpg"
+        },
+        {
+          "id": 516,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/514/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 517,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/image18.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/515/conversions/image18-thumbnail.jpg"
+        },
+        {
+          "id": 518,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/image27.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/516/conversions/image27-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:32:43.000000Z",
+      "updated_at": "2022-03-05T13:32:29.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 46,
+        "attachment_id": 519,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/517/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 46,
+        "created_at": "2022-01-27T17:32:43.000000Z",
+        "updated_at": "2022-03-05T13:32:29.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 11,
+    "user_id": 3,
+    "shop_id": 9,
+    "product_id": 47,
+    "question": "Can you please send me the documentation link?",
+    "answer": "https://pixer-doc.vercel.app/api-integration",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:23:50.000000Z",
+    "updated_at": "2022-05-11T05:56:40.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 47,
+      "name": "Reactify Searching Engine",
+      "slug": "reactify-searching-engine",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 55,
+      "shop_id": 9,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 55,
+      "max_price": 55,
+      "sku": "9fd4fdg47sd/8g94fdsfgsd",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 508,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/image06.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/conversions/image06-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 509,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/image02.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/conversions/image02-thumbnail.jpg"
+        },
+        {
+          "id": 510,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 511,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 512,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/image06.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/conversions/image06-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:33:59.000000Z",
+      "updated_at": "2022-03-05T13:31:56.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 47,
+        "attachment_id": 513,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/511/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 47,
+        "created_at": "2022-01-27T17:33:59.000000Z",
+        "updated_at": "2022-03-05T13:31:56.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 10,
+    "user_id": 3,
+    "shop_id": 9,
+    "product_id": 47,
+    "question": "How Can I add additional filers?",
+    "answer": "From the back end we have provided option to add additional filters. you can follow our documentaion for more",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:23:24.000000Z",
+    "updated_at": "2022-05-11T05:57:10.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 47,
+      "name": "Reactify Searching Engine",
+      "slug": "reactify-searching-engine",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 55,
+      "shop_id": 9,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 55,
+      "max_price": 55,
+      "sku": "9fd4fdg47sd/8g94fdsfgsd",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 508,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/image06.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/506/conversions/image06-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 509,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/image02.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/507/conversions/image02-thumbnail.jpg"
+        },
+        {
+          "id": 510,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/508/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 511,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/509/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 512,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/image06.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/510/conversions/image06-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:33:59.000000Z",
+      "updated_at": "2022-03-05T13:31:56.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 47,
+        "attachment_id": 513,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/511/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 47,
+        "created_at": "2022-01-27T17:33:59.000000Z",
+        "updated_at": "2022-03-05T13:31:56.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 9,
+    "user_id": 3,
+    "shop_id": 8,
+    "product_id": 48,
+    "question": "Will I get the design files as well?",
+    "answer": "Hi\nUnfortunately we do not provide design assests with this template.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:22:56.000000Z",
+    "updated_at": "2022-05-11T05:57:31.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 48,
+      "name": "MagazzinePro  Lyfestyle Blog Template",
+      "slug": "magazzinepro-lyfestyle-blog-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 4,
+      "price": 35,
+      "shop_id": 8,
+      "sale_price": 30,
+      "language": "en",
+      "min_price": 35,
+      "max_price": 35,
+      "sku": "8sa4dfg84ea/e/e7gg4er4gre5g1er5g1re3g20eg0",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 502,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/image04.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/conversions/image04-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 503,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 504,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 505,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/image08.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/conversions/image08-thumbnail.jpg"
+        },
+        {
+          "id": 506,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/conversions/image11-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:36:06.000000Z",
+      "updated_at": "2022-03-05T13:31:15.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 2,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 48,
+        "attachment_id": 507,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/505/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 48,
+        "created_at": "2022-01-27T17:36:06.000000Z",
+        "updated_at": "2022-03-05T13:31:15.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 8,
+    "user_id": 3,
+    "shop_id": 8,
+    "product_id": 48,
+    "question": "Do you have Gatsby version of the template?",
+    "answer": "Yes we do have Gatsby version of the template.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:22:39.000000Z",
+    "updated_at": "2022-05-11T05:57:53.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 48,
+      "name": "MagazzinePro  Lyfestyle Blog Template",
+      "slug": "magazzinepro-lyfestyle-blog-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 4,
+      "price": 35,
+      "shop_id": 8,
+      "sale_price": 30,
+      "language": "en",
+      "min_price": 35,
+      "max_price": 35,
+      "sku": "8sa4dfg84ea/e/e7gg4er4gre5g1er5g1re3g20eg0",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 502,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/image04.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/500/conversions/image04-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 503,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/501/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 504,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/502/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 505,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/image08.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/503/conversions/image08-thumbnail.jpg"
+        },
+        {
+          "id": 506,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/504/conversions/image11-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:36:06.000000Z",
+      "updated_at": "2022-03-05T13:31:15.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 2,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 48,
+        "attachment_id": 507,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/505/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 48,
+        "created_at": "2022-01-27T17:36:06.000000Z",
+        "updated_at": "2022-03-05T13:31:15.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 7,
+    "user_id": 3,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "If a customer rent for example a car in our case the first day is for free. Is there any option to manage these case?",
+    "answer": "Hi The closest you can do is to set day range pricing like 1-1 days 0 then 2-5 days one price and so on",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:22:12.000000Z",
+    "updated_at": "2022-05-11T05:58:13.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 6,
+    "user_id": 3,
+    "shop_id": 4,
+    "product_id": 50,
+    "question": "I want to add two APIs for (hotels booking and Travel timings) , on this system is it possible ?? or PickBazar fits best??",
+    "answer": "Hi\nyes it will be possible but you will need to do a lot of additional customizatoin.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:21:19.000000Z",
+    "updated_at": "2022-05-11T05:58:36.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 50,
+      "name": "Scholar Multipurpose Education WordPress Theme",
+      "slug": "scholar-multipurpose-education-wordpress-theme",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 2,
+      "price": 79,
+      "shop_id": 4,
+      "sale_price": 70,
+      "language": "en",
+      "min_price": 79,
+      "max_price": 79,
+      "sku": "848er74g/7rehg7w/*er7h/w7g4561651gerwgwergwreger",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 496,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/image02.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/494/conversions/image02-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 497,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/image03.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/495/conversions/image03-thumbnail.jpg"
+        },
+        {
+          "id": 498,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/image04.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/496/conversions/image04-thumbnail.jpg"
+        },
+        {
+          "id": 499,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/image11.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/497/conversions/image11-thumbnail.jpg"
+        },
+        {
+          "id": 500,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/image20.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/498/conversions/image20-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:38:43.000000Z",
+      "updated_at": "2022-03-05T13:09:47.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 4,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 50,
+        "attachment_id": 501,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/499/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 50,
+        "created_at": "2022-01-27T17:38:43.000000Z",
+        "updated_at": "2022-03-05T13:09:47.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 5,
+    "user_id": 3,
+    "shop_id": 8,
+    "product_id": 51,
+    "question": "Are you available for custom work?",
+    "answer": "Unfortunatley at present we do not have developers free to do custom work. You will need to hire developers from other sources.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:20:59.000000Z",
+    "updated_at": "2022-05-11T05:59:10.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 51,
+      "name": "Borobazar React Next Grocery Template",
+      "slug": "borobazar-react-next-grocery-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 69,
+      "shop_id": 8,
+      "sale_price": 65,
+      "language": "en",
+      "min_price": 69,
+      "max_price": 69,
+      "sku": "89g4erg48948941ger1g1ergwreg",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 494,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/image52.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/conversions/image52-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 484,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/image35.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/conversions/image35-thumbnail.jpg"
+        },
+        {
+          "id": 485,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/conversions/image43-thumbnail.jpg"
+        },
+        {
+          "id": 486,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/image45.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/conversions/image45-thumbnail.jpg"
+        },
+        {
+          "id": 487,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/image52.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/conversions/image52-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:40:14.000000Z",
+      "updated_at": "2022-03-05T12:53:03.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 51,
+        "attachment_id": 495,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/493/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 51,
+        "created_at": "2022-01-27T17:40:14.000000Z",
+        "updated_at": "2022-03-05T12:53:03.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 4,
+    "user_id": 3,
+    "shop_id": 8,
+    "product_id": 51,
+    "question": "Hi\nWhat is the React version of the template",
+    "answer": "We have used React 18 but you can use upto the latest stable version of the React",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:20:39.000000Z",
+    "updated_at": "2022-05-11T06:07:39.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 51,
+      "name": "Borobazar React Next Grocery Template",
+      "slug": "borobazar-react-next-grocery-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 69,
+      "shop_id": 8,
+      "sale_price": 65,
+      "language": "en",
+      "min_price": 69,
+      "max_price": 69,
+      "sku": "89g4erg48948941ger1g1ergwreg",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 494,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/image52.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/conversions/image52-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 484,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/image35.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/conversions/image35-thumbnail.jpg"
+        },
+        {
+          "id": 485,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/conversions/image43-thumbnail.jpg"
+        },
+        {
+          "id": 486,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/image45.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/conversions/image45-thumbnail.jpg"
+        },
+        {
+          "id": 487,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/image52.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/conversions/image52-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:40:14.000000Z",
+      "updated_at": "2022-03-05T12:53:03.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 51,
+        "attachment_id": 495,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/493/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 51,
+        "created_at": "2022-01-27T17:40:14.000000Z",
+        "updated_at": "2022-03-05T12:53:03.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 3,
+    "user_id": 3,
+    "shop_id": 8,
+    "product_id": 51,
+    "question": "Do you have HTML version of this template?",
+    "answer": "Hi\nUnfortunately we only have HTML version of the template.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:20:21.000000Z",
+    "updated_at": "2022-05-11T06:08:02.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 51,
+      "name": "Borobazar React Next Grocery Template",
+      "slug": "borobazar-react-next-grocery-template",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 1,
+      "price": 69,
+      "shop_id": 8,
+      "sale_price": 65,
+      "language": "en",
+      "min_price": 69,
+      "max_price": 69,
+      "sku": "89g4erg48948941ger1g1ergwreg",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 494,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/image52.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/492/conversions/image52-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 484,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/image35.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/482/conversions/image35-thumbnail.jpg"
+        },
+        {
+          "id": 485,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/image43.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/483/conversions/image43-thumbnail.jpg"
+        },
+        {
+          "id": 486,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/image45.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/484/conversions/image45-thumbnail.jpg"
+        },
+        {
+          "id": 487,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/image52.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/485/conversions/image52-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:40:14.000000Z",
+      "updated_at": "2022-03-05T12:53:03.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 3.67,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 1,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 51,
+        "attachment_id": 495,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/493/cartsy-lite.1.4.6.zip",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 51,
+        "created_at": "2022-01-27T17:40:14.000000Z",
+        "updated_at": "2022-03-05T12:53:03.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 2,
+    "user_id": 3,
+    "shop_id": 7,
+    "product_id": 49,
+    "question": "Is it only template or you have functional version of this template?",
+    "answer": "We also have the Laravel based Functional version of the template. You can check our profile.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:19:14.000000Z",
+    "updated_at": "2022-05-11T06:08:47.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 49,
+      "name": "ChawkBazar Laravel Flutter Mobile App",
+      "slug": "chawkbazar-laravel-flutter-mobile-app",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 3,
+      "price": 39,
+      "shop_id": 7,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 39,
+      "max_price": 39,
+      "sku": "984a8sd4f89sd4f9s48s984v81a1v8df1v",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 394,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/Rectangle-773.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/conversions/Rectangle-773-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 395,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/Rectangle-773.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/conversions/Rectangle-773-thumbnail.jpg"
+        },
+        {
+          "id": 396,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/Rectangle-778.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/conversions/Rectangle-778-thumbnail.jpg"
+        },
+        {
+          "id": 397,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/Rectangle-782.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/conversions/Rectangle-782-thumbnail.jpg"
+        },
+        {
+          "id": 398,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/Rectangle-785.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/conversions/Rectangle-785-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:37:27.000000Z",
+      "updated_at": "2022-02-03T13:22:37.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 49,
+        "attachment_id": 399,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/399/DOCUMENTATION.pdf",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 49,
+        "created_at": "2022-01-27T17:37:27.000000Z",
+        "updated_at": "2022-02-03T13:22:37.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  },
+  {
+    "id": 1,
+    "user_id": 3,
+    "shop_id": 7,
+    "product_id": 49,
+    "question": "Do you have HTML version of this template?",
+    "answer": "Unfortunatley we do not have HTML version of the template.",
+    "deleted_at": null,
+    "created_at": "2022-05-11T05:18:53.000000Z",
+    "updated_at": "2022-05-11T06:09:06.000000Z",
+    "positive_feedbacks_count": 0,
+    "negative_feedbacks_count": 0,
+    "my_feedback": null,
+    "abusive_reports_count": 0,
+    "product": {
+      "id": 49,
+      "name": "ChawkBazar Laravel Flutter Mobile App",
+      "slug": "chawkbazar-laravel-flutter-mobile-app",
+      "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+      "type_id": 3,
+      "price": 39,
+      "shop_id": 7,
+      "sale_price": null,
+      "language": "en",
+      "min_price": 39,
+      "max_price": 39,
+      "sku": "984a8sd4f89sd4f9s48s984v81a1v8df1v",
+      "preview_url": "https://themeforest.net/user/redqteam/portfolio",
+      "quantity": 500,
+      "in_stock": 1,
+      "is_taxable": 0,
+      "shipping_class_id": null,
+      "status": "publish",
+      "product_type": "simple",
+      "unit": "1",
+      "height": null,
+      "width": null,
+      "length": null,
+      "image": {
+        "id": 394,
+        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/Rectangle-773.png",
+        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/394/conversions/Rectangle-773-thumbnail.jpg"
+      },
+      "video": null,
+      "gallery": [
+        {
+          "id": 395,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/Rectangle-773.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/395/conversions/Rectangle-773-thumbnail.jpg"
+        },
+        {
+          "id": 396,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/Rectangle-778.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/396/conversions/Rectangle-778-thumbnail.jpg"
+        },
+        {
+          "id": 397,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/Rectangle-782.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/397/conversions/Rectangle-782-thumbnail.jpg"
+        },
+        {
+          "id": 398,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/Rectangle-785.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/398/conversions/Rectangle-785-thumbnail.jpg"
+        }
+      ],
+      "deleted_at": null,
+      "created_at": "2022-01-27T17:37:27.000000Z",
+      "updated_at": "2022-02-03T13:22:37.000000Z",
+      "author_id": null,
+      "manufacturer_id": null,
+      "is_digital": 1,
+      "is_external": 0,
+      "external_product_url": null,
+      "external_product_button_text": null,
+      "ratings": 4.33,
+      "total_reviews": 3,
+      "rating_count": [
+        {
+          "rating": 5,
+          "total": 2,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        },
+        {
+          "rating": 3,
+          "total": 1,
+          "positive_feedbacks_count": 0,
+          "negative_feedbacks_count": 0,
+          "my_feedback": null,
+          "abusive_reports_count": 0
+        }
+      ],
+      "my_review": null,
+      "in_wishlist": false,
+      "total_downloads": 0,
+      "blocked_dates": [],
+      "translated_languages": ["en"],
+      "digital_file": {
+        "id": 49,
+        "attachment_id": 399,
+        "url": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/399/DOCUMENTATION.pdf",
+        "fileable_type": "Marvel\\Database\\Models\\Product",
+        "fileable_id": 49,
+        "created_at": "2022-01-27T17:37:27.000000Z",
+        "updated_at": "2022-02-03T13:22:37.000000Z"
+      }
+    },
+    "user": {
+      "id": 3,
+      "name": "Customer",
+      "email": "customer@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-02-02T11:00:07.000000Z",
+      "updated_at": "2022-02-02T11:00:07.000000Z",
+      "is_active": 1,
+      "shop_id": null
+    }
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Confirmed",
+    "slug": "confirmed",
+    "serial": 1,
+    "language": "en",
+    "color": "#0d9965",
+    "created_at": "2022-02-02T21:08:20.000000Z",
+    "updated_at": "2022-02-22T03:46:30.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 2,
+    "name": "On hold",
+    "slug": "on-hold",
+    "serial": 2,
+    "language": "en",
+    "color": "#64acd8",
+    "created_at": "2022-02-19T16:37:55.000000Z",
+    "updated_at": "2022-02-19T16:37:55.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 3,
+    "name": "Processing",
+    "slug": "processing",
+    "serial": 3,
+    "language": "en",
+    "color": "#eacb34",
+    "created_at": "2022-02-23T14:55:01.000000Z",
+    "updated_at": "2022-02-23T14:55:01.000000Z",
+    "translated_languages": ["en"]
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "id": 1,
+  "options": {
+    "seo": {
+      "ogImage": [],
+      "ogTitle": null,
+      "metaTags": null,
+      "metaTitle": null,
+      "canonicalUrl": null,
+      "ogDescription": null,
+      "twitterHandle": null,
+      "metaDescription": null,
+      "twitterCardType": null
+    },
+    "logo": {
+      "id": 935,
+      "original": "https://i.ibb.co/Vgd4PMq/logo-black.png",
+      "thumbnail": "https://i.ibb.co/Vgd4PMq/logo-black.png"
+    },
+    "currency": "EUR",
+    "taxClass": 1,
+    "dark_logo": {
+      "id": 936,
+      "original": "https://i.ibb.co/K5ZhQ57/logo-white.png",
+      "thumbnail": "https://i.ibb.co/K5ZhQ57/logo-white.png"
+    },
+    "siteTitle": "ProSkills39",
+    "deliveryTime": [
+      {
+        "title": "On Time",
+        "description": "You'll get it instant"
+      }
+    ],
+    "signupPoints": 0,
+    "siteSubtitle": null,
+    "contactDetails": {
+      "contact": "+84-984-698-452 , +84-378-829-902",
+      "socials": [],
+      "website": "https://proskills39.io",
+      "email": "proskills3939@gmail.com",
+      "location": {
+        "lat": 48.2016556,
+        "lng": 16.3378535,
+        "zip": "1070",
+        "city": "Wien",
+        "state": "Wien",
+        "country": "Austria",
+        "formattedAddress": "412 Nguyen Thi Minh Khai Street, Ward 5, District 1, HCMC, Vietnam."
+      }
+    },
+    "minimumOrderAmount": null,
+    "maximumQuestionLimit": 5,
+    "currencyToWalletRatio": 0
+  },
+  "language": "en",
+  "created_at": "2022-01-26T17:38:04.000000Z",
+  "updated_at": "2022-08-11T04:58:16.000000Z"
+}

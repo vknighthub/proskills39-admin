@@ -1,0 +1,114 @@
+[
+  {
+    "id": 10,
+    "name": "Fluid",
+    "settings": null,
+    "slug": "fluid",
+    "language": "en",
+    "icon": "LiquidIcon",
+    "promotional_sliders": {
+      "id": 943,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/939/image-6.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/939/conversions/image-6-thumbnail.jpg"
+    },
+    "created_at": "2022-08-12T09:25:46.000000Z",
+    "updated_at": "2022-08-12T09:27:00.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 9,
+    "name": "Flexibility",
+    "settings": null,
+    "slug": "flexibility",
+    "language": "en",
+    "icon": "ResponsiveIcon",
+    "promotional_sliders": {
+      "id": 942,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/938/image-5.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/938/conversions/image-5-thumbnail.jpg"
+    },
+    "created_at": "2022-08-12T09:24:59.000000Z",
+    "updated_at": "2022-08-12T09:26:52.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 4,
+    "name": "N/A",
+    "settings": {
+      "isHome": false,
+      "layoutType": "classic",
+      "productCard": "helium"
+    },
+    "slug": "n-a",
+    "language": "en",
+    "icon": "NoTypeIcon",
+    "promotional_sliders": {
+      "id": 941,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/937/image-4.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/937/conversions/image-4-thumbnail.jpg"
+    },
+    "created_at": "2022-01-22T13:05:52.000000Z",
+    "updated_at": "2022-08-12T09:26:43.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 3,
+    "name": "Responsive",
+    "settings": {
+      "isHome": false,
+      "layoutType": "classic",
+      "productCard": "helium"
+    },
+    "slug": "responsive",
+    "language": "en",
+    "icon": "ResponsiveIcon",
+    "promotional_sliders": {
+      "id": 940,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
+    },
+    "created_at": "2022-01-22T13:05:32.000000Z",
+    "updated_at": "2022-08-12T09:26:33.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 2,
+    "name": "Liquid",
+    "settings": {
+      "isHome": false,
+      "layoutType": "classic",
+      "productCard": "helium"
+    },
+    "slug": "liquid",
+    "language": "en",
+    "icon": "LiquidIcon",
+    "promotional_sliders": {
+      "id": 939,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/935/image-2.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/935/conversions/image-2-thumbnail.jpg"
+    },
+    "created_at": "2022-01-22T13:05:05.000000Z",
+    "updated_at": "2022-08-12T09:26:26.000000Z",
+    "translated_languages": ["en"]
+  },
+  {
+    "id": 1,
+    "name": "Fixed",
+    "settings": {
+      "isHome": false,
+      "layoutType": "classic",
+      "productCard": "helium"
+    },
+    "slug": "fixed",
+    "language": "en",
+    "icon": "FixedIcon",
+    "promotional_sliders": {
+      "id": 938,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/934/image-1.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/934/conversions/image-1-thumbnail.jpg"
+    },
+    "created_at": "2022-01-22T13:04:37.000000Z",
+    "updated_at": "2022-08-12T09:26:17.000000Z",
+    "translated_languages": ["en"]
+  }
+]

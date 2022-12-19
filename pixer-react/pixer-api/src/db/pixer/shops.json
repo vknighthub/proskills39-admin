@@ -1,0 +1,713 @@
+[
+  {
+    "id": 11,
+    "owner_id": 1,
+    "name": "Demo shop",
+    "slug": "demo-shop",
+    "description": "Just for demo purpuse",
+    "cover_image": [],
+    "logo": {
+      "id": 468,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/466/logo.jpg",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/466/conversions/logo-thumbnail.jpg"
+    },
+    "is_active": 0,
+    "address": {
+      "zip": "1204",
+      "city": "Dhaka",
+      "state": "Dhaka",
+      "country": "Bangladesh",
+      "street_address": "Dhaka"
+    },
+    "settings": {
+      "contact": "1234678",
+      "socials": [
+        {
+          "url": "facebook.com",
+          "icon": "FacebookIcon"
+        }
+      ],
+      "website": "www.demo.com",
+      "location": {
+        "lat": 12.9479059,
+        "lng": 77.6025907,
+        "city": "Bengaluru",
+        "state": "KA",
+        "country": "India",
+        "formattedAddress": "Bannerghatta Main Rd, Chinnayanpalya, Wilson Garden, Bengaluru, Karnataka, India"
+      }
+    },
+    "created_at": "2022-02-19T16:01:23.000000Z",
+    "updated_at": "2022-02-23T15:34:11.000000Z",
+    "orders_count": 0,
+    "products_count": 0,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "owner_id": 1,
+    "name": "Maxicon Soft Tech",
+    "slug": "maxicon-soft-tech",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 419,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/419/Cover-1.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/419/conversions/Cover-1-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 199,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/199/Group-14403.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/199/conversions/Group-14403-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "53703",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "country": "USA",
+      "street_address": "3405 Browning Lane"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        }
+      ],
+      "website": "https://redq.io/about-us",
+      "location": []
+    },
+    "created_at": "2022-01-26T15:56:04.000000Z",
+    "updated_at": "2022-02-23T14:43:57.000000Z",
+    "orders_count": 3,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "owner_id": 1,
+    "name": "BentaSoft",
+    "slug": "bentasoft",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 196,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/196/Cover-3.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/196/conversions/Cover-3-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 195,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/195/Group-14404.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/195/conversions/Group-14404-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "02138",
+      "city": "Cambridge",
+      "state": "Massachusetts",
+      "country": "USA",
+      "street_address": "4408 Hinkle Lake Road"
+    },
+    "settings": {
+      "contact": "+659033724396",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-26T15:54:49.000000Z",
+    "updated_at": "2022-02-15T06:13:22.000000Z",
+    "orders_count": 4,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "owner_id": 1,
+    "name": "Omnico Team",
+    "slug": "omnico-team",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 193,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/193/Cover-2.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/193/conversions/Cover-2-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 194,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/194/Group-14398.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/194/conversions/Group-14398-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "36104",
+      "city": "Montgomery",
+      "state": "Alabama",
+      "country": "USA",
+      "street_address": "2834 Fleming Street"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-26T15:53:03.000000Z",
+    "updated_at": "2022-02-20T13:41:15.000000Z",
+    "orders_count": 3,
+    "products_count": 5,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "owner_id": 1,
+    "name": "Imagineco",
+    "slug": "imagineco",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 192,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/192/Cover-1.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/192/conversions/Cover-1-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 191,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/191/Group-14394.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/191/conversions/Group-14394-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "07071",
+      "city": "Lyndhurst",
+      "state": "California",
+      "country": "USA",
+      "street_address": "4329 Deer Ridge Drive"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-26T15:51:40.000000Z",
+    "updated_at": "2022-02-15T06:11:23.000000Z",
+    "orders_count": 3,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "owner_id": 1,
+    "name": "Omatron",
+    "slug": "omatron",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 108,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/108/Cover-5.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/108/conversions/Cover-5-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 109,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/109/Group-14395.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/109/conversions/Group-14395-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "07071",
+      "city": "Lyndhurst",
+      "state": "New Jersey",
+      "country": "USA",
+      "street_address": "4329 Deer Ridge Drive"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        },
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-26T09:00:06.000000Z",
+    "updated_at": "2022-02-15T06:10:05.000000Z",
+    "orders_count": 3,
+    "products_count": 5,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "owner_id": 1,
+    "name": "Bitronic",
+    "slug": "bitronic",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 423,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/423/Cover-4-thumbnail.jpg",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/423/conversions/Cover-4-thumbnail-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 428,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/428/Group-14393.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/428/conversions/Group-14393-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "02215",
+      "city": "Boston",
+      "state": "Massachusetts",
+      "country": "USA",
+      "street_address": "1981 Metz Lane"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        },
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        }
+      ],
+      "website": null,
+      "location": []
+    },
+    "created_at": "2022-01-26T08:55:45.000000Z",
+    "updated_at": "2022-02-15T06:08:31.000000Z",
+    "orders_count": 3,
+    "products_count": 5,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "owner_id": 1,
+    "name": "Qubitron Solutions",
+    "slug": "qubitron-solutions",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 99,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/99/Cover-1.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/99/conversions/Cover-1-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 98,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/98/Group-14400.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/98/conversions/Group-14400-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "90017",
+      "city": "Los Angeles",
+      "state": "California",
+      "country": "United States",
+      "street_address": "396  Glendale Avenue"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-22T16:53:14.000000Z",
+    "updated_at": "2022-01-26T08:56:24.000000Z",
+    "orders_count": 2,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "owner_id": 1,
+    "name": "BentaSoft",
+    "slug": "fusion-digital",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 100,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/100/Cover-2.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/100/conversions/Cover-2-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 101,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/101/Group-14392.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/101/conversions/Group-14392-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "06103",
+      "city": "Hartford",
+      "state": "Connecticut",
+      "country": "USA",
+      "street_address": "2711 Meadow View Drive"
+    },
+    "settings": {
+      "contact": "+659033724396",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.instagram.com/redqinc/",
+          "icon": "InstagramIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-22T16:51:34.000000Z",
+    "updated_at": "2022-02-15T06:06:45.000000Z",
+    "orders_count": 0,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  },
+  {
+    "id": 1,
+    "owner_id": 1,
+    "name": "Temper studios",
+    "slug": "temper-studios",
+    "description": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
+    "cover_image": {
+      "id": 103,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/103/Cover-3.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/103/conversions/Cover-3-thumbnail.jpg"
+    },
+    "logo": {
+      "id": 102,
+      "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/102/Group-14405.png",
+      "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/102/conversions/Group-14405-thumbnail.jpg"
+    },
+    "is_active": 1,
+    "address": {
+      "zip": "37072",
+      "city": "Goodlettsville",
+      "state": "Tennessee",
+      "country": "USA",
+      "street_address": "3399 Buffalo Creek Road"
+    },
+    "settings": {
+      "contact": "0799302967",
+      "socials": [
+        {
+          "url": "https://www.facebook.com/redqinc/",
+          "icon": "FacebookIcon"
+        },
+        {
+          "url": "https://www.youtube.com/channel/UCjld1tyVHRNy_pe3ROLiLhw",
+          "icon": "YouTubeIcon"
+        }
+      ],
+      "website": "https://redq.io/",
+      "location": []
+    },
+    "created_at": "2022-01-22T16:30:50.000000Z",
+    "updated_at": "2022-02-24T04:56:16.000000Z",
+    "orders_count": 0,
+    "products_count": 6,
+    "owner": {
+      "id": 1,
+      "name": "admin",
+      "email": "vendor@demo.com",
+      "email_verified_at": null,
+      "created_at": "2022-01-20T15:24:42.000000Z",
+      "updated_at": "2022-01-20T15:24:42.000000Z",
+      "is_active": 1,
+      "shop_id": null,
+      "profile": {
+        "id": 1,
+        "avatar": {
+          "id": 460,
+          "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/mask.png",
+          "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/459/conversions/mask-thumbnail.jpg"
+        },
+        "bio": null,
+        "socials": null,
+        "contact": null,
+        "customer_id": 1,
+        "created_at": "2022-01-30T06:59:51.000000Z",
+        "updated_at": "2022-02-16T08:30:28.000000Z"
+      }
+    }
+  }
+]

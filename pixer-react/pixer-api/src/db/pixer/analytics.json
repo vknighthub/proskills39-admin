@@ -1,0 +1,58 @@
+{
+  "totalRevenue": 0,
+  "totalRefunds": 0,
+  "totalShops": 10,
+  "todaysRevenue": 0,
+  "totalOrders": 0,
+  "newCustomers": 1,
+  "totalYearSaleByMonth": [
+    {
+      "total": 2,
+      "month": "January"
+    },
+    {
+      "total": 3,
+      "month": "February"
+    },
+    {
+      "total": 5,
+      "month": "March"
+    },
+    {
+      "total": 4,
+      "month": "April"
+    },
+    {
+      "total": 6,
+      "month": "May"
+    },
+    {
+      "total": 3,
+      "month": "June"
+    },
+    {
+      "total": 5,
+      "month": "July"
+    },
+    {
+      "total": 7,
+      "month": "August"
+    },
+    {
+      "total": 0,
+      "month": "September"
+    },
+    {
+      "total": 0,
+      "month": "October"
+    },
+    {
+      "total": 0,
+      "month": "November"
+    },
+    {
+      "total": 0,
+      "month": "December"
+    }
+  ]
+}
