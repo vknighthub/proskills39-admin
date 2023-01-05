@@ -42,6 +42,10 @@ const AuthorizedMenuItems = [
     label: 'text-auth-password',
     path: routes.password,
   },
+  {
+    label: 'text-settings',
+    path: routes.profile,
+  },
 ];
 
 function AuthorizedMenu({ user }: { user: User }) {
@@ -151,9 +155,14 @@ export default function Header({
         <SearchButton className="hidden sm:flex" />
         <ThemeSwitcher />
         <GridSwitcher />
-        {asPath !== routes.checkout && (
-          <CartButton className="hidden sm:flex" />
-        )}
+        <a
+          href={`${process.env.NEXT_PUBLIC_ADMIN_URL}/order`}
+          target="_blank"
+          rel="noreferrer"
+          className="focus:ring-accent-700 hidden h-9 shrink-0 items-center justify-center rounded border border-transparent bg-brand px-3 py-0 text-sm font-semibold leading-none text-light outline-none transition duration-300 ease-in-out hover:bg-brand-dark focus:shadow focus:outline-none focus:ring-1 sm:inline-flex"
+        >
+          {t('text-order')}
+        </a>
         {isMultiLangEnable ? (
           <div className="ltr:ml-auto rtl:mr-auto">
             <LanguageSwitcher />

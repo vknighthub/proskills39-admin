@@ -19,6 +19,8 @@ const routes = {
   password: '/password',
   feed: '/feed',
   followedShop: '/followed-authors',
+  library: '/library',
+  faq: "/faq",
   orderUrl: (tracking_number: string) => `/orders/${tracking_number}`,
   productUrl: (slug: string) => `/products/${slug}`,
   tagUrl: (slug: string) => `/products/tags/${slug}`,

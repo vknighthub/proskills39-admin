@@ -1,14 +1,15 @@
 import { useDrawer } from '@/components/drawer-views/context';
 import { CloseIcon } from '@/components/icons/close-icon';
 import { DiscoverIcon } from '@/components/icons/discover-icon';
+import { EyeIcon } from '@/components/icons/eye-icon';
 import { FeedIcon } from '@/components/icons/feed-icon';
 import { HelpIcon } from '@/components/icons/help-icon';
 import { HomeIcon } from '@/components/icons/home-icon';
+import { InformationIcon } from '@/components/icons/information-icon';
+import { LayoutIcon } from '@/components/icons/layout-icon';
 import { PaperPlaneIcon } from '@/components/icons/paper-plane-icon';
 import { PeopleIcon } from '@/components/icons/people-icon';
 import { ProductIcon } from '@/components/icons/product-icon';
-import { SettingIcon } from '@/components/icons/setting-icon';
-import { InformationIcon } from '@/components/icons/information-icon';
 import ActiveLink from '@/components/ui/links/active-link';
 import Logo from '@/components/ui/logo';
 import Scrollbar from '@/components/ui/scrollbar';
@@ -117,22 +118,35 @@ export function Sidebar({
                 <PaperPlaneIcon className="h-[18px] w-[18px] text-current" />
               }
             />
-          </nav>
 
-          <nav className="mt-auto flex flex-col pb-4">
             <NavLink
-              title={t('text-settings')}
-              href={routes.profile}
+              title={t('text-library')}
+              href={routes.library}
               isCollapse={isCollapse}
-              icon={<SettingIcon className="h-[18px] w-[18px] text-current" />}
+              icon={
+                <LayoutIcon className="h-[18px] w-[18px] text-current" />
+              }
             />
+            
             <NavLink
-              title={t('text-help-page-title')}
+              title={t('text-how-to-use-service')}
               href={routes.help}
               isCollapse={isCollapse}
-              icon={<HelpIcon className="h-[18px] w-[18px] text-current" />}
+              icon={
+                <EyeIcon className="h-[18px] w-[18px] text-current" />
+              }
+            />
+
+            <NavLink
+              title={t('text-faq')}
+              href={routes.faq}
+              isCollapse={isCollapse}
+              icon={
+                <HelpIcon className="h-[18px] w-[18px] text-current" />
+              }
             />
           </nav>
+
         </div>
       </Scrollbar>
 

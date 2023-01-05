@@ -15,6 +15,7 @@ import { useBreakpoint } from '@/lib/hooks/use-breakpoint';
 import { useIsMounted } from '@/lib/hooks/use-is-mounted';
 import { UserFollowingIcon } from '@/components/icons/user-following-icon';
 import { useTranslation } from 'next-i18next';
+import { HelpIcon } from '@/components/icons/help-icon';
 
 const menuItems = [
   {
@@ -30,31 +31,37 @@ const menuItems = [
     path: routes.purchases,
   },
   {
-    id: 2,
+    id: 3,
     icon: <HeartFillIcon className="h-[15px] w-[15px] sm:h-4 sm:w-4" />,
     label: 'text-auth-wishlist',
     path: routes.wishlists,
   },
   {
-    id: 2,
+    id: 4,
     icon: <ReportIcon className="h-[15px] w-[15px] sm:h-4 sm:w-4" />,
     label: 'text-my-reports-title',
     path: routes.reports,
   },
   {
-    id: 2,
+    id: 5,
     icon: <InformationIcon className="h-[15px] w-[15px] sm:h-4 sm:w-4" />,
     label: 'text-my-question-title',
     path: routes.questions,
   },
   {
-    id: 3,
+    id: 6,
     icon: <UserFollowingIcon className="h-[18px] w-[18px] sm:h-5 sm:w-5" />,
     label: 'text-followed-authors',
     path: routes.followedShop,
   },
   {
-    id: 4,
+    id: 7,
+    icon: <HelpIcon className="h-[18px] w-[18px] text-current" />,
+    label: 'text-help-page-title',
+    path: routes.help,
+  },
+  {
+    id: 8,
     icon: <LockIcon className="h-[18px] w-[18px] sm:h-5 sm:w-5" />,
     label: 'text-auth-password',
     path: routes.password,
