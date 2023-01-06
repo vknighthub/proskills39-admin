@@ -19,8 +19,8 @@
   },
   {
     "id": 17,
-    "name": "Shoppify",
-    "slug": "shoppify",
+    "name": "Programing & Tech",
+    "slug": "programing-tech",
     "language": "en",
     "icon": null,
     "image": [],
@@ -56,8 +56,8 @@
   },
   {
     "id": 16,
-    "name": "Joomla",
-    "slug": "joomla",
+    "name": "Graphics & Design",
+    "slug": "graphics-design",
     "language": "en",
     "icon": null,
     "image": [],
@@ -93,8 +93,8 @@
   },
   {
     "id": 15,
-    "name": "Bootstrap",
-    "slug": "bootstrap",
+    "name": "Digital Marketing",
+    "slug": "digital-marketing",
     "language": "en",
     "icon": null,
     "image": [],
@@ -130,7 +130,7 @@
   },
   {
     "id": 14,
-    "name": "3D Assets",
+    "name": "Writing translation",
     "slug": "3d-assets",
     "language": "en",
     "icon": null,
@@ -167,8 +167,8 @@
   },
   {
     "id": 13,
-    "name": "Mobile App",
-    "slug": "mobile-app",
+    "name": "Video animation",
+    "slug": "video-animation",
     "language": "en",
     "icon": null,
     "image": [],
@@ -204,8 +204,8 @@
   },
   {
     "id": 12,
-    "name": "Icon Sets",
-    "slug": "icon-sets",
+    "name": "Music & Audio",
+    "slug": "music-audio",
     "language": "en",
     "icon": null,
     "image": [],
@@ -241,8 +241,8 @@
   },
   {
     "id": 11,
-    "name": "Illustrations",
-    "slug": "illustrations",
+    "name": "Business",
+    "slug": "business",
     "language": "en",
     "icon": null,
     "image": [],
@@ -278,8 +278,8 @@
   },
   {
     "id": 10,
-    "name": "UI templates",
-    "slug": "ui-templates",
+    "name": "Lifestyle",
+    "slug": "lifestyle",
     "language": "en",
     "icon": null,
     "image": [],
@@ -315,8 +315,8 @@
   },
   {
     "id": 9,
-    "name": "Wireframe Kits",
-    "slug": "wireframe-kits",
+    "name": "Trending",
+    "slug": "trending",
     "language": "en",
     "icon": null,
     "image": [],
@@ -325,265 +325,6 @@
     "type_id": 3,
     "created_at": "2022-01-22T14:02:49.000000Z",
     "updated_at": "2022-02-09T10:55:20.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 8,
-    "name": "CMS",
-    "slug": "cms",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T14:02:24.000000Z",
-    "updated_at": "2022-02-09T10:55:23.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 7,
-    "name": "Angular",
-    "slug": "html-2",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T14:01:42.000000Z",
-    "updated_at": "2022-02-15T06:44:35.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 6,
-    "name": "WordPress Theme",
-    "slug": "wordpress-theme",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T13:59:29.000000Z",
-    "updated_at": "2022-02-09T10:55:30.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 5,
-    "name": "WordPress Plugin",
-    "slug": "wordpress-plugin",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T13:58:27.000000Z",
-    "updated_at": "2022-02-09T10:55:33.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 4,
-    "name": "React",
-    "slug": "react",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T13:57:48.000000Z",
-    "updated_at": "2022-02-09T10:55:36.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 3,
-    "name": "HTML",
-    "slug": "html",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T13:57:26.000000Z",
-    "updated_at": "2022-02-09T10:55:40.000000Z",
-    "deleted_at": null,
-    "parent_id": null,
-    "translated_languages": ["en"],
-    "type": {
-      "id": 3,
-      "name": "Responsive",
-      "settings": {
-        "isHome": false,
-        "layoutType": "classic",
-        "productCard": "helium"
-      },
-      "slug": "responsive",
-      "language": "en",
-      "icon": "ResponsiveIcon",
-      "promotional_sliders": {
-        "id": 940,
-        "original": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/image-3.png",
-        "thumbnail": "https://pixarlaravel.s3.ap-southeast-1.amazonaws.com/936/conversions/image-3-thumbnail.jpg"
-      },
-      "created_at": "2022-01-22T13:05:32.000000Z",
-      "updated_at": "2022-08-12T09:26:33.000000Z",
-      "translated_languages": ["en"]
-    },
-    "children": []
-  },
-  {
-    "id": 1,
-    "name": "PHP Script",
-    "slug": "wordpress",
-    "language": "en",
-    "icon": null,
-    "image": [],
-    "details": "Along With Wordpress Themes & Plugins, We always try to use latest trending techs like React, Next Js, Gatsby Js, GraphQl, Laravel, Shopify etc to make our products special. Our rich tech choice will help you to build high performance applications. We are also known to provide great customer supports to our customers.",
-    "parent": null,
-    "type_id": 3,
-    "created_at": "2022-01-22T13:17:30.000000Z",
-    "updated_at": "2022-02-09T10:55:43.000000Z",
     "deleted_at": null,
     "parent_id": null,
     "translated_languages": ["en"],

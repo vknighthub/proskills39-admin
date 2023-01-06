@@ -1,4 +1,4 @@
-import { Swiper, SwiperSlide, Navigation } from '@/components/ui/slider';
+import { Swiper, SwiperSlide,Autoplay, Pagination, Navigation } from '@/components/ui/slider';
 import Image from '@/components/ui/image';
 import { ChevronLeft } from '@/components/icons/chevron-left';
 import { ChevronRight } from '@/components/icons/chevron-right';
@@ -17,16 +17,21 @@ export default function PromoCarousel({ types }: { types: Type[] }) {
     <div className="relative border-b border-light-300 bg-light-100 pl-4 pt-5 dark:border-dark-300 dark:bg-dark-100 md:pt-6 ltr:md:pl-6 rtl:md:pr-6 ltr:lg:pl-7 rtl:lg:pr-7 ltr:3xl:pl-8 rtl:3xl:pr-8">
       <Swiper
         id="promoCarousel"
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        centeredSlides={true}
         speed={400}
-        spaceBetween={20}
+        spaceBetween={30}
         slidesPerView={1.2}
         allowTouchMove={true}
-        modules={[Navigation]}
         breakpoints={carouselBreakpoints}
-        navigation={{
-          nextEl: '.next',
-          prevEl: '.prev',
+        pagination={{
+          clickable: true,
         }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
       >
         {types?.map(
           (type, index) =>

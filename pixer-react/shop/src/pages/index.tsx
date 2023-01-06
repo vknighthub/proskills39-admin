@@ -1,21 +1,24 @@
+import CategoryFilter from '@/components/product/category-filter';
+import Grid from '@/components/product/grid';
+import PromoCarousel from '@/components/product/promo-carousel';
+import routes from '@/config/routes';
+import client from '@/data/client';
+import { API_ENDPOINTS } from '@/data/client/endpoints';
+import { useProducts } from '@/data/product';
+import { useTypes } from '@/data/type';
+import Layout from '@/layouts/_layout';
+import Seo from '@/layouts/_seo';
 import type {
   CategoryQueryOptions,
   NextPageWithLayout,
   ProductQueryOptions,
   SettingsQueryOptions,
 } from '@/types';
+import isEmpty from 'lodash/isEmpty';
 import type { GetStaticProps } from 'next';
-import Layout from '@/layouts/_layout';
-import { useProducts } from '@/data/product';
-import Grid from '@/components/product/grid';
-import { useRouter } from 'next/router';
-import Seo from '@/layouts/_seo';
-import routes from '@/config/routes';
-import client from '@/data/client';
-import { dehydrate, QueryClient } from 'react-query';
-import { API_ENDPOINTS } from '@/data/client/endpoints';
-import CategoryFilter from '@/components/product/category-filter';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
+import { useRouter } from 'next/router';
+import { QueryClient, dehydrate } from 'react-query';
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => {
   const queryClient = new QueryClient();
@@ -71,6 +74,11 @@ function Products() {
   );
 }
 
+function PromotionalSlider() {
+  const { types } = useTypes({ limit: 100 });
+  return !isEmpty(types) ? <PromoCarousel types={types} /> : null;
+}
+
 const Home: NextPageWithLayout = () => {
   return (
     <>
@@ -79,6 +87,7 @@ const Home: NextPageWithLayout = () => {
         description="Nền tảng kết nối nhà cung cấp dịch vụ, chuyên gia với những người có nhu cầu sử dụng dịch vụ, kỹ năng đó."
         url={routes.home}
       />
+      <PromotionalSlider />
       <CategoryFilter />
       <Products />
     </>
