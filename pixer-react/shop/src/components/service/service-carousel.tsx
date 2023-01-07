@@ -11,7 +11,7 @@ const carouselBreakpoints = {
   },
 };
 
-export default function PromoCarousel({ types }: { types: Type[] }) {
+export default function ServiceCarousel({ types }: { types: Type[] }) {
   return (
     <div className="relative border-b border-light-300 bg-light-100 pl-4 pt-5 dark:border-dark-300 dark:bg-dark-100 md:pt-6 ltr:md:pl-6 rtl:md:pr-6 ltr:lg:pl-7 rtl:lg:pr-7 ltr:3xl:pl-8 rtl:3xl:pr-8">
       <Swiper

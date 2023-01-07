@@ -302,5 +302,9 @@
   "text-review-updated": "Review Updated",
   "text-report": "Report",
   "text-prev": "Prev",
-  "text-next": "Next"
+  "text-next": "Next",
+  "text-popular-professional-services": "Popular Professional Services",
+  "text-promotion-services": "Promotion Services",
+  "text-most-ordered-services": "Most-Ordered Services",
+  "text-new-post-services": "New Post Services"
 }

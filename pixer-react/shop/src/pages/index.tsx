@@ -1,6 +1,7 @@
 import CategoryFilter from '@/components/product/category-filter';
 import Grid from '@/components/product/grid';
 import PromoCarousel from '@/components/product/promo-carousel';
+import ServiceCardLoader from '@/components/service/service-loader';
 import routes from '@/config/routes';
 import client from '@/data/client';
 import { API_ENDPOINTS } from '@/data/client/endpoints';
@@ -90,6 +91,7 @@ const Home: NextPageWithLayout = () => {
       <PromotionalSlider />
       <CategoryFilter />
       <Products />
+      <ServiceCardLoader />
     </>
   );
 };
