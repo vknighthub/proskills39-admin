@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@floating-ui/react-dom-interactions": "0.6.3",
+    "@fortawesome/free-solid-svg-icons": "^6.2.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "1.5.0",
     "@hookform/resolvers": "2.8.8",
     "@reach/portal": "0.16.2",
@@ -42,8 +44,10 @@
     "react-dom": "17.0.2",
     "react-dropzone": "12.0.4",
     "react-hook-form": "7.28.0",
+    "react-icons": "^4.7.1",
     "react-phone-input-2": "2.15.0",
     "react-query": "3.34.16",
+    "react-router-dom": "^6.6.2",
     "react-scroll": "1.8.6",
     "react-select": "5.2.2",
     "react-toastify": "8.2.0",
@@ -55,7 +59,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "0.5.0",
     "@tailwindcss/typography": "0.5.2",
-    "@types/body-scroll-lock": "3.1.0",
+    "@types/body-scroll-lock": "^3.1.0",
     "@types/cookie": "^0.5.1",
     "@types/js-cookie": "3.0.1",
     "@types/lodash": "4.14.179",
