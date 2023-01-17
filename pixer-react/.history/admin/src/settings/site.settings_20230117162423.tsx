@@ -94,7 +94,7 @@ export const siteSettings = {
       {
         href: Routes.order.list,
         label: 'sidebar-nav-item-following-sellers',
-        icon: 'UserCheckIcon',
+        icon: 'ShieldAltIcon',
       },
       {
         href: Routes.category.list,

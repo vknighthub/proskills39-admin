@@ -37,11 +37,11 @@ export const siteSettings = {
         label: 'sidebar-nav-item-dashboard',
         icon: 'HomeIcon',
       },
-      // {
-      //   href: Routes.user.list,
-      //   label: 'authorized-nav-item-profile',
-      //   icon: 'UsersIcon',
-      // },
+      {
+        href: Routes.user.list,
+        label: 'authorized-nav-item-profile',
+        icon: 'UsersIcon',
+      },
       {
         href: Routes.question.list,
         label: 'sidebar-nav-item-message',
@@ -94,7 +94,7 @@ export const siteSettings = {
       {
         href: Routes.order.list,
         label: 'sidebar-nav-item-following-sellers',
-        icon: 'UserCheckIcon',
+        icon: 'ShieldAltIcon',
       },
       {
         href: Routes.category.list,

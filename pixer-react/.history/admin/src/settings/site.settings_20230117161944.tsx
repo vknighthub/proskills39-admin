@@ -37,20 +37,20 @@ export const siteSettings = {
         label: 'sidebar-nav-item-dashboard',
         icon: 'HomeIcon',
       },
-      // {
-      //   href: Routes.user.list,
-      //   label: 'authorized-nav-item-profile',
-      //   icon: 'UsersIcon',
-      // },
+      {
+        href: Routes.user.list,
+        label: 'authorized-nav-item-profile',
+        icon: 'MessageIcon',
+      },
       {
         href: Routes.question.list,
         label: 'sidebar-nav-item-message',
-        icon: 'MessageIcon',
+        icon: 'TasksAltIcon',
       },
       {
         href: Routes.shop.list,
         label: 'sidebar-nav-item-project',
-        icon: 'UniversityIcon',
+        icon: 'TasksAltIcon',
         iconClosed: <RiIcons.RiArrowDownSFill />,
         iconOpened: <RiIcons.RiArrowUpSFill />,
         subNav: [
@@ -94,7 +94,7 @@ export const siteSettings = {
       {
         href: Routes.order.list,
         label: 'sidebar-nav-item-following-sellers',
-        icon: 'UserCheckIcon',
+        icon: 'ShieldAltIcon',
       },
       {
         href: Routes.category.list,
