@@ -1,4 +1,5 @@
-{
+{ 
+  "input-label-user-name": "اسم االمستخدم",
   "form-title-create-product": "إنشاء منتج جديد",
   "form-title-edit-product": "تحرير المنتج",
   "form-title-product-type": "نوع المنتج",

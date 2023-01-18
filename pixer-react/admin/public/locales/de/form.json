@@ -1,4 +1,5 @@
-{
+{ 
+  "input-label-user-name": "Nutzername",
   "form-title-create-product": "Neues Produkt erstellen",
   "form-title-edit-product": "Produkt bearbeiten",
   "form-title-product-type": "Produktart",

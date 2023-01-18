@@ -95,15 +95,54 @@ export interface PaginatorInfo<T> {
   total: number;
 }
 
+export interface BaseReponse<T> {
+  errorcode : number;
+  messagedetail : string;
+  result : {
+    status : number;
+    data : T
+  }
+}
+
 export interface LoginInput {
-  email: string;
+  username: string;
   password: string;
 }
 
+// export interface AuthResponse {
+//   token: string;
+//   permissions: string[];
+// }
+
 export interface AuthResponse {
-  token: string;
-  permissions: string[];
-}
+    usrid: number,
+    username: string,
+    firstname: string,
+    midname: string,
+    lastname: string,
+    gender: number,
+    address: string,
+    email: string,
+    birthday?: string,
+    phone: string,
+    lastlogintime?: string,
+    status: string,
+    token: string,
+    token_type : string,
+    usercreated?: string,
+    datecreated: Date,
+    usermodified: string,
+    datemodified: string,
+    islogin?: boolean,
+    expiretime: any,
+    isshow?: boolean,
+    failnumber?: number,
+    avatar?: string,
+    faceid?: string,
+    licensetype?: string,
+    licenseid?: string
+  }
+
 
 export interface Type {
   id: string;
@@ -980,10 +1019,8 @@ export interface ContactDetailsInput {
 
 export interface RegisterInput {
   email: string;
-  password: string;
-  name: string;
-  shop_id?: number;
-  permission: Permission;
+  username: string;
+  fullname: string;
 }
 
 export interface ChangePasswordInput {
