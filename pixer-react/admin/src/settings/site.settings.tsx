@@ -33,7 +33,7 @@ export const siteSettings = {
   sidebarLinks: {
     admin: [
       {
-        href: Routes.dashboard,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-dashboard',
         icon: 'HomeIcon',
       },
@@ -43,12 +43,12 @@ export const siteSettings = {
       //   icon: 'UsersIcon',
       // },
       {
-        href: Routes.question.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-message',
         icon: 'MessageIcon',
       },
       {
-        href: Routes.shop.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-project',
         icon: 'UniversityIcon',
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -65,7 +65,7 @@ export const siteSettings = {
         ],
       },
       {
-        href: Routes.product.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-services',
         icon: 'ThumbtackIcon',
         iconClosed: <RiIcons.RiArrowDownSFill />,
@@ -87,28 +87,28 @@ export const siteSettings = {
         icon: 'UniversityIcon',
       },
       {
-        href: Routes.type.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-services-whitelist',
         icon: 'SaveIcon',
       },
       {
-        href: Routes.order.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-following-sellers',
         icon: 'UserCheckIcon',
       },
       {
-        href: Routes.category.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-disputes',
         icon: 'ShieldAltIcon',
       },
       {
-        href: Routes.tag.list,
+        href: Routes.adminMyShops,
         label: 'sidebar-nav-item-verification',
         icon: 'CircleCheckIcon',
       },
 
       {
-        href: Routes.orderStatus.list,
+        href: Routes.adminMyShops,
         label: 'auth-menu-logout',
         icon: 'SignOutIcon',
       },
