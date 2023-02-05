@@ -1,4 +1,13 @@
-{
+{	
+
+	"table-fund-id": "Fund Id",
+	"table-challenge-id": "Challenge Id",
+	"table-total-proposal": "Total Proposal",
+	"table-total-challenge": "Total Challenge",
+	"table-total-description": "Description",
+	"table-total-summary": "Summary",
+	"table-total-vote": "Vote",
+
 	"recent-order-table-title": "Recent Orders",
 	"popular-products-table-title": "Popular Products",
 	"empty-table-data": "No data found",

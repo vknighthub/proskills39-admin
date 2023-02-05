@@ -13,7 +13,7 @@ const SidebarItem = ({ item }: any) => {
     <>
       <a
         href={!item.subNav && item.href}
-        className="flex w-full items-center text-base text-body-dark text-start focus:text-accent"
+        className="flex w-full cursor-pointer items-center text-base text-body-dark text-start focus:text-accent"
       >
         {getIcon({
           iconList: sidebarIcons,

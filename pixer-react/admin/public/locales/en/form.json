@@ -1,4 +1,8 @@
-{
+{ 
+
+  "input-label-funds" : "Funds",
+  "input-label-challenges" : "Challenges",
+
   "form-title-permission": "Permission",
   "form-title-create-product": "Create New Product",
   "form-title-edit-product": "Edit Product",

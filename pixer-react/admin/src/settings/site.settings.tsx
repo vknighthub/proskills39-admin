@@ -37,11 +37,31 @@ export const siteSettings = {
         label: 'sidebar-nav-item-dashboard',
         icon: 'HomeIcon',
       },
-      // {
-      //   href: Routes.user.list,
-      //   label: 'authorized-nav-item-profile',
-      //   icon: 'UsersIcon',
-      // },
+      {
+        href: Routes.user.list,
+        label: 'dRep Tool',
+        icon: 'UsersIcon',
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+        subNav: [
+          {
+            title: 'Fund',
+            path: '/drep/fund',
+          },
+          {
+            title: 'Challenge',
+            path: '/drep/challenge',
+          },
+          {
+            title: 'Proposal',
+            path: '/drep/proposal',
+          },
+          {
+            title: 'Assessment',
+            path: '/drep/assessment',
+          },
+        ],
+      },
       {
         href: Routes.adminMyShops,
         label: 'sidebar-nav-item-message',

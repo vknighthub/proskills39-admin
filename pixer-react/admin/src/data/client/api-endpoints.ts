@@ -1,4 +1,6 @@
 export const API_ENDPOINTS = {
+  FUND:'drep/getallfund',
+  CHALLEGE:'drep/admin/getallchallenge',
   ATTACHMENTS: 'attachments',
   ANALYTICS: 'http://localhost:5000/api/analytics',
   ATTRIBUTES: 'attributes',
@@ -7,7 +9,7 @@ export const API_ENDPOINTS = {
   ORDERS: 'http://localhost:5000/api/orders',
   USERS: 'users',
   REGISTER: 'user/register',
-  PRODUCTS: 'products',
+  PRODUCTS: 'http://localhost:5000/api/products',
   POPULAR_PRODUCTS: 'http://localhost:5000/api/popular-products',
   COUPONS: 'coupons',
   VERIFY_COUPONS: 'coupons/verify',

@@ -5,6 +5,8 @@ export type NextPageWithLayout<P = {}> = NextPage<P> & {
   getLayout?: (page: React.ReactElement) => React.ReactNode;
 };
 
+
+
 export enum SortOrder {
   Asc = 'asc',
   Desc = 'desc',
@@ -61,6 +63,67 @@ export enum Permission {
   Customer = 'customer',
 }
 
+
+export interface Fund {
+  name : string
+  fundId: number;
+  fundName: string;
+  slug : string;
+  totalChallenge : number;
+  totalProposal : number
+}
+
+
+export interface Challenge {
+  challengeId: number;
+  fundId: number;
+  challengeName : string;
+  tagline : string;
+  description : string,
+  summary : string
+  imageUrl : string
+  imageAltText : string
+  challengeUrl : string
+  totalProposal : number
+  voteCount : number;
+  commentCount : number;
+  slug : string;
+}
+
+
+
+export interface Proposal {
+  proposalId: number;
+  proposalName: string;
+  challengeName : string;
+  proposalLink : string;
+  bugetProposal : number,
+  summaryProposal : string
+  descriptionDetail : string
+  proposerName : string
+  proposerUser : string
+  voteCount : number;
+  upVoteCount : number
+  downVoteCount : number;
+}
+
+
+export interface Proposal {
+  proposalId: number;
+  proposalName: string;
+  challengeName : string;
+  proposalLink : string;
+  bugetProposal : number,
+  summaryProposal : string
+  descriptionDetail : string
+  proposerName : string
+  proposerUser : string
+  voteCount : number;
+  upVoteCount : number
+  downVoteCount : number;
+}
+
+
 export interface GetParams {
   slug: string;
   language: string;
@@ -100,8 +163,20 @@ export interface BaseReponse<T> {
   messagedetail : string;
   result : {
     status : number;
-    data : T
+    data : T[] 
   }
+  data : T[]
+  total: number,
+  current_page: number,
+  count: number,
+  last_page: number,
+  firstItem: number,
+  lastItem: number,
+  per_page: number,
+  first_page_url:string
+  last_page_url:string
+  next_page_url: string
+  prev_page_url: string
 }
 
 export interface LoginInput {
@@ -1279,6 +1354,9 @@ export interface ShopQueryOptions extends Omit<QueryOptions, 'language'> {
   name: string;
   parent: number | null;
 }
+
+
+export interface FundPaginator extends PaginatorInfo<Fund> {}
 
 export interface ShopPaginator extends PaginatorInfo<Shop> {}
 
