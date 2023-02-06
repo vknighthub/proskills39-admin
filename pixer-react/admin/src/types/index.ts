@@ -1099,8 +1099,10 @@ export interface RegisterInput {
 }
 
 export interface ChangePasswordInput {
-  oldPassword: string;
-  newPassword: string;
+  username :string;
+  oldpass: string;
+  newpass: string;
+  encrypt : boolean
 }
 
 export interface ForgetPasswordInput {

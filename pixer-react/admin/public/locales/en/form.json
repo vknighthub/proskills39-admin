@@ -2,7 +2,14 @@
 
   "input-label-funds" : "Funds",
   "input-label-challenges" : "Challenges",
+  "input-label-user-name": "User Name",
 
+
+  "error-user-name-required" : "User Name is Required!",
+
+
+
+  
   "form-title-permission": "Permission",
   "form-title-create-product": "Create New Product",
   "form-title-edit-product": "Edit Product",
@@ -19,7 +26,7 @@
   "form-title-options": "Options",
   "form-title-variation-added": "Variations Added",
   "form-title-variant": "Variant",
-  "input-label-user-name": "User Name",
+ 
   "form-title-edit-type": "Edit Layout Type",
   "form-title-create-category": "Create New Category",
   "form-title-edit-category": "Edit Category",
