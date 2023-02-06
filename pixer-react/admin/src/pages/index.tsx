@@ -14,7 +14,6 @@ import { Config } from '@/config';
 
 const AdminDashboard = dynamic(() => import('@/components/dashboard/admin'));
 const OwnerDashboard = dynamic(() => import('@/components/dashboard/owner'));
-
 export default function Dashboard({
   userPermissions,
 }: {
@@ -36,10 +35,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
       ? `/${locale}${Routes.login}`
       : Routes.login;
   const { token, permissions } = getAuthCredentials(ctx);
-  if (
-    !isAuthenticated({ token, permissions }) ||
-    !hasAccess(allowedRoles, permissions)
-  ) {
+  if (!isAuthenticated({ token, permissions })) {
     return {
       redirect: {
         destination: generateRedirectUrl,

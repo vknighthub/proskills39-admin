@@ -1,5 +1,6 @@
 import { adminAndOwnerOnly, adminOwnerAndStaffOnly } from '@/utils/auth-utils';
 import { Routes } from '@/config/routes';
+import * as RiIcons from 'react-icons/ri';
 
 export const siteSettings = {
   name: 'ProSkills39',
@@ -32,84 +33,104 @@ export const siteSettings = {
   sidebarLinks: {
     admin: [
       {
-        href: Routes.dashboard,
-        label: 'sidebar-nav-item-dashboard',
-        icon: 'DashboardIcon',
-      },
-      {
-        href: Routes.shop.list,
-        label: 'sidebar-nav-item-shops',
-        icon: 'ShopIcon',
-      },
-      {
         href: Routes.adminMyShops,
-        label: 'sidebar-nav-item-my-shops',
-        icon: 'MyShopIcon',
-      },
-      {
-        href: Routes.product.list,
-        label: 'sidebar-nav-item-products',
-        icon: 'ProductsIcon',
-      },
-      {
-        href: Routes.type.list,
-        label: 'sidebar-nav-item-groups',
-        icon: 'TypesIcon',
-      },
-      {
-        href: Routes.category.list,
-        label: 'sidebar-nav-item-categories',
-        icon: 'CategoriesIcon',
-      },
-      {
-        href: Routes.tag.list,
-        label: 'sidebar-nav-item-tags',
-        icon: 'TagIcon',
-      },
-      {
-        href: Routes.order.list,
-        label: 'sidebar-nav-item-orders',
-        icon: 'OrdersIcon',
-      },
-      {
-        href: Routes.orderStatus.list,
-        label: 'sidebar-nav-item-order-status',
-        icon: 'OrdersStatusIcon',
-      },
-      {
-        href: Routes.order.create,
-        label: 'sidebar-nav-item-create-order',
-        icon: 'CalendarScheduleIcon',
+        label: 'sidebar-nav-item-dashboard',
+        icon: 'HomeIcon',
       },
       {
         href: Routes.user.list,
-        label: 'sidebar-nav-item-users',
+        label: 'dRep Tool',
         icon: 'UsersIcon',
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+        subNav: [
+          {
+            title: 'Fund',
+            path: '/drep/fund',
+          },
+          {
+            title: 'Challenge',
+            path: '/drep/challenge',
+          },
+          {
+            title: 'Proposal',
+            path: '/drep/proposal',
+          },
+          {
+            title: 'Assessment',
+            path: '/drep/assessment',
+          },
+        ],
       },
       {
-        href: Routes.tax.list,
-        label: 'sidebar-nav-item-taxes',
-        icon: 'TaxesIcon',
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-message',
+        icon: 'MessageIcon',
       },
       {
-        href: Routes.withdraw.list,
-        label: 'sidebar-nav-item-withdraws',
-        icon: 'WithdrawIcon',
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-project',
+        icon: 'UniversityIcon',
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+        subNav: [
+          {
+            title: 'Users',
+            path: '/overview/users',
+          },
+          {
+            title: 'Revenue',
+            path: '/overview/revenue',
+          },
+        ],
       },
       {
-        href: Routes.question.list,
-        label: 'sidebar-nav-item-questions',
-        icon: 'QuestionIcon',
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-services',
+        icon: 'ThumbtackIcon',
+        iconClosed: <RiIcons.RiArrowDownSFill />,
+        iconOpened: <RiIcons.RiArrowUpSFill />,
+        subNav: [
+          {
+            title: 'Users',
+            path: '/overview/users',
+          },
+          {
+            title: 'Revenue',
+            path: '/overview/revenue',
+          },
+        ],
       },
       {
-        href: Routes.reviews.list,
-        label: 'sidebar-nav-item-reviews',
-        icon: 'ReviewIcon',
+        href: Routes.adminMyShops,
+        label: 'text-wallet',
+        icon: 'UniversityIcon',
       },
       {
-        href: Routes.settings,
-        label: 'sidebar-nav-item-settings',
-        icon: 'SettingsIcon',
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-services-whitelist',
+        icon: 'SaveIcon',
+      },
+      {
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-following-sellers',
+        icon: 'UserCheckIcon',
+      },
+      {
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-disputes',
+        icon: 'ShieldAltIcon',
+      },
+      {
+        href: Routes.adminMyShops,
+        label: 'sidebar-nav-item-verification',
+        icon: 'CircleCheckIcon',
+      },
+
+      {
+        href: Routes.adminMyShops,
+        label: 'auth-menu-logout',
+        icon: 'SignOutIcon',
       },
     ],
     shop: [

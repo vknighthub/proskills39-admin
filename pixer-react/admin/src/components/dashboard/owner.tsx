@@ -11,7 +11,7 @@ export default function OwnerDashboard() {
   const { data, isLoading: loading, error } = useMeQuery();
 
   if (loading) return <Loader text={t('common:text-loading')} />;
-  if (error) return <ErrorMessage message={error.message} />;
+  //if (error) return <ErrorMessage message={error.message} />;
   return (
     <>
       <div className="mb-5 border-b border-dashed border-border-base pb-8 sm:mb-8">

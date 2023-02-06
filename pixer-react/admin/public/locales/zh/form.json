@@ -1,4 +1,5 @@
-{
+{ 
+  "input-label-user-name": "用户名",
   "form-title-create-product": "創造新產品",
   "form-title-edit-product": "編輯產品",
   "form-title-product-type": "产品类别",

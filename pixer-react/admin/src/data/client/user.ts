@@ -1,4 +1,5 @@
 import {
+  BaseReponse,
   AuthResponse,
   LoginInput,
   RegisterInput,
@@ -24,13 +25,13 @@ export const userClient = {
     return HttpClient.get<User>(API_ENDPOINTS.ME);
   },
   login: (variables: LoginInput) => {
-    return HttpClient.post<AuthResponse>(API_ENDPOINTS.TOKEN, variables);
+    return HttpClient.post<BaseReponse<AuthResponse>>(API_ENDPOINTS.LOGIN, variables);
   },
   logout: () => {
     return HttpClient.post<any>(API_ENDPOINTS.LOGOUT, {});
   },
   register: (variables: RegisterInput) => {
-    return HttpClient.post<AuthResponse>(API_ENDPOINTS.REGISTER, variables);
+    return HttpClient.post<BaseReponse<AuthResponse>>(API_ENDPOINTS.REGISTER, variables);
   },
   update: ({ id, input }: { id: string; input: UpdateUser }) => {
     return HttpClient.put<User>(`${API_ENDPOINTS.USERS}/${id}`, input);

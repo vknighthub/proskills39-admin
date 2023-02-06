@@ -17,34 +17,32 @@ import {
   setAuthCredentials,
 } from '@/utils/auth-utils';
 
-const loginFormSchema = yup.object().shape({
-  email: yup
-    .string()
-    .email('form:error-email-format')
-    .required('form:error-email-required'),
-  password: yup.string().required('form:error-password-required'),
-});
+// const loginFormSchema = yup.object().shape({
+//   email: yup
+//     .string()
+//     .email('form:error-email-format')
+//     .required('form:error-email-required'),
+//   password: yup.string().required('form:error-password-required'),
+// });
 
 const LoginForm = () => {
   const { t } = useTranslation();
   const [errorMessage, setErrorMessage] = useState<string | null>(null);
   const { mutate: login, isLoading, error } = useLogin();
 
-  function onSubmit({ email, password }: LoginInput) {
+  function onSubmit({ username, password }: LoginInput) {
     login(
       {
-        email,
+        username,
         password,
       },
       {
         onSuccess: (data) => {
-          if (data?.token) {
-            if (hasAccess(allowedRoles, data?.permissions)) {
-              setAuthCredentials(data?.token, data?.permissions);
-              Router.push(Routes.dashboard);
-              return;
-            }
-            setErrorMessage('form:error-enough-permission');
+          if (data?.errorcode == 0) {
+            setAuthCredentials(data.result.data.token);
+            Router.push(Routes.dashboard);
+
+            return;
           } else {
             setErrorMessage('form:error-credential-wrong');
           }
@@ -56,16 +54,16 @@ const LoginForm = () => {
 
   return (
     <>
-      <Form<LoginInput> validationSchema={loginFormSchema} onSubmit={onSubmit}>
+      <Form<LoginInput> onSubmit={onSubmit}>
         {({ register, formState: { errors } }) => (
           <>
             <Input
-              label={t('form:input-label-email')}
-              {...register('email')}
-              type="email"
+              label={t('form:input-label-user-name')}
+              {...register('username')}
+              type="username"
               variant="outline"
               className="mb-4"
-              error={t(errors?.email?.message!)}
+              error={t(errors?.username?.message!)}
             />
             <PasswordInput
               label={t('form:input-label-password')}

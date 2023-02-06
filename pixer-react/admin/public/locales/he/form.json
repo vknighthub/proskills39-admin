@@ -1,4 +1,5 @@
-{
+{ 
+  "input-label-user-name": "שם משתמש",
   "form-title-create-product": "צור מוצר חדש",
   "form-title-edit-product": "ערוך מוצר",
   "form-title-product-type": "סוג המוצר",

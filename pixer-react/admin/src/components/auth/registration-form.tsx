@@ -19,18 +19,18 @@ import { Permission } from '@/types';
 import { useRegisterMutation } from '@/data/user';
 
 type FormValues = {
-  name: string;
+  fullname: string;
   email: string;
-  password: string;
+  username: string;
   permission: Permission;
 };
 const registrationFormSchema = yup.object().shape({
-  name: yup.string().required('form:error-name-required'),
+  fullname: yup.string().required('form:error-name-required'),
   email: yup
     .string()
     .email('form:error-email-format')
     .required('form:error-email-required'),
-  password: yup.string().required('form:error-password-required'),
+  username: yup.string().required('form:error-password-required'),
   permission: yup.string().default('store_owner').oneOf(['store_owner']),
 });
 const RegistrationForm = () => {
@@ -48,26 +48,27 @@ const RegistrationForm = () => {
       permission: Permission.StoreOwner,
     },
   });
+
   const router = useRouter();
   const { t } = useTranslation();
 
-  async function onSubmit({ name, email, password, permission }: FormValues) {
+  async function onSubmit({ fullname, email, username }: FormValues) {
+    console.log('ádasd');
     registerUser(
       {
-        name,
+        fullname,
         email,
-        password,
-        permission,
+        username,
       },
 
       {
         onSuccess: (data) => {
-          if (data?.token) {
-            if (hasAccess(allowedRoles, data?.permissions)) {
-              setAuthCredentials(data?.token, data?.permissions);
-              router.push(Routes.dashboard);
-              return;
-            }
+          if (data.errorcode == 0) {
+            // if (hasAccess(allowedRoles, data?.permissions)) {
+            //setAuthCredentials(data?.token, data?.permissions);
+            router.push(Routes.login);
+            return;
+            // }
             setErrorMessage('form:error-enough-permission');
           } else {
             setErrorMessage('form:error-credential-wrong');
@@ -90,10 +91,10 @@ const RegistrationForm = () => {
       <form onSubmit={handleSubmit(onSubmit)} noValidate>
         <Input
           label={t('form:input-label-name')}
-          {...register('name')}
+          {...register('fullname')}
           variant="outline"
           className="mb-4"
-          error={t(errors?.name?.message!)}
+          error={t(errors?.fullname?.message!)}
         />
         <Input
           label={t('form:input-label-email')}
@@ -103,10 +104,10 @@ const RegistrationForm = () => {
           className="mb-4"
           error={t(errors?.email?.message!)}
         />
-        <PasswordInput
-          label={t('form:input-label-password')}
-          {...register('password')}
-          error={t(errors?.password?.message!)}
+        <Input
+          label={t('form:input-label-user-name')}
+          {...register('username')}
+          error={t(errors?.username?.message!)}
           variant="outline"
           className="mb-4"
         />
@@ -126,7 +127,7 @@ const RegistrationForm = () => {
       </form>
       <div className="relative mt-8 mb-6 flex flex-col items-center justify-center text-sm text-heading sm:mt-11 sm:mb-8">
         <hr className="w-full" />
-        <span className="start-2/4 -ms-4 absolute -top-2.5 bg-light px-2">
+        <span className="absolute -top-2.5 bg-light px-2 -ms-4 start-2/4">
           {t('common:text-or')}
         </span>
       </div>
@@ -134,7 +135,7 @@ const RegistrationForm = () => {
         {t('form:text-already-account')}{' '}
         <Link
           href={Routes.login}
-          className="ms-1 font-semibold text-accent underline transition-colors duration-200 hover:text-accent-hover hover:no-underline focus:text-accent-700 focus:no-underline focus:outline-none"
+          className="font-semibold text-accent underline transition-colors duration-200 ms-1 hover:text-accent-hover hover:no-underline focus:text-accent-700 focus:no-underline focus:outline-none"
         >
           {t('form:button-label-login')}
         </Link>
