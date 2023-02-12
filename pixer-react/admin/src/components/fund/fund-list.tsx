@@ -9,7 +9,7 @@ import { useTranslation } from 'next-i18next';
 import {
   Fund,
   Product,
-  MappedPaginatorInfo,
+  MappedPaginatorInfos,
   ProductType,
   Shop,
   SortOrder,
@@ -22,7 +22,7 @@ import LanguageSwitcher from '@/components/ui/lang-action/action';
 
 export type IProps = {
   products: Fund[] | undefined;
-  paginatorInfo: MappedPaginatorInfo | null;
+  paginatorInfo: MappedPaginatorInfos | null;
   onPagination: (current: number) => void;
   onSort: (current: any) => void;
   onOrder: (current: string) => void;
@@ -136,12 +136,12 @@ const ProductList = ({
         />
       </div>
 
-      {!!paginatorInfo?.total && (
+      {!!paginatorInfo?.totalpage && (
         <div className="flex items-center justify-end">
           <Pagination
-            total={paginatorInfo.total}
-            current={paginatorInfo.currentPage}
-            pageSize={paginatorInfo.perPage}
+            total={paginatorInfo.totalpage * paginatorInfo.limit}
+            current={paginatorInfo.limit}
+            pageSize={paginatorInfo.currentpage}
             onChange={onPagination}
             showLessItems
           />

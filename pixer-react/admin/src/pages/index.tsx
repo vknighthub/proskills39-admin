@@ -20,9 +20,9 @@ export default function Dashboard({
   userPermissions: string[];
 }) {
   if (userPermissions?.includes(SUPER_ADMIN)) {
-    return <AdminDashboard />;
+    return <></>;
   }
-  return <OwnerDashboard />;
+  return <></>;
 }
 
 Dashboard.Layout = AppLayout;

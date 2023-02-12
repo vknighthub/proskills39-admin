@@ -1,13 +1,21 @@
 {	
 
 	"table-fund-id": "Fund Id",
+	"table-fund-name": "Fund Name",
 	"table-challenge-id": "Challenge Id",
+	"table-challenge-name": "Challenge Name",
 	"table-proposal-id": "Proposal Id",
+	"table-proposal-name": "Proposal Name",
+	"table-proposal-link": "Proposal Link",
+	"table-proposer-User": "Proposer User",
 	"table-total-proposal": "Total Proposal",
 	"table-total-challenge": "Total Challenge",
 	"table-total-description": "Description",
 	"table-total-summary": "Summary",
 	"table-total-vote": "Vote",
+
+	"table-buget-proposal": "Buget Proposal",
+	"table-summary-proposal": "Summary Proposal",
 
 	"table-down-vote-count": "Down Vote",
 	"table-up-vote-count": "Up Vote",

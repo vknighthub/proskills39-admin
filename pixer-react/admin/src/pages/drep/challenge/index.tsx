@@ -33,11 +33,11 @@ export default function ProductsPage() {
 
   const { products, loading, paginatorInfo, error } = useChallengesQuery({
     language: locale,
-    limit: 20,
+    limit: 10,
     page,
-    type,
-    categories: category,
-    name: searchTerm,
+    // type,
+    // categories: category,
+    // name: searchTerm,
     orderBy,
     sortedBy,
   });
@@ -86,21 +86,7 @@ export default function ProductsPage() {
             'visible h-auto': visible,
             'invisible h-0': !visible,
           })}
-        >
-          <div className="mt-5 flex w-full flex-col border-t border-gray-200 pt-5 md:mt-8 md:flex-row md:items-center md:pt-8">
-            <CategoryTypeFilter
-              className="w-full"
-              onCategoryFilter={({ slug }: { slug: string }) => {
-                setPage(1);
-                setCategory(slug);
-              }}
-              onTypeFilter={({ slug }: { slug: string }) => {
-                setType(slug);
-                setPage(1);
-              }}
-            />
-          </div>
-        </div>
+        ></div>
       </Card>
       <ChallengeList
         products={products}

@@ -7,7 +7,7 @@ import Badge from '@/components/ui/badge/badge';
 import { Router, useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import {
-  Challenge,
+  Proposal,
   MappedPaginatorInfo,
   SortOrder,
   MappedPaginatorInfos,
@@ -17,7 +17,7 @@ import { useState } from 'react';
 import TitleWithSort from '@/components/ui/title-with-sort';
 
 export type IProps = {
-  products: Challenge | undefined;
+  products: Proposal | undefined;
   paginatorInfo: MappedPaginatorInfos | null;
   onPagination: (current: number) => void;
   onSort: (current: any) => void;
@@ -63,9 +63,9 @@ const ProductList = ({
 
   let columns = [
     {
-      title: t('table:table-challenge-id'),
-      dataIndex: 'challengeId',
-      key: 'challengeId',
+      title: t('table:table-proposal-id'),
+      dataIndex: 'proposalId',
+      key: 'proposalId',
       align: alignLeft,
       width: 74,
       render: (type: any) => {
@@ -75,27 +75,27 @@ const ProductList = ({
     {
       title: (
         <TitleWithSort
-          title={t('table:table-item-title')}
+          title={t('table:table-proposal-name')}
           ascending={
             sortingObj.sort === SortOrder.Asc &&
-            sortingObj.column === 'challengeName'
+            sortingObj.column === 'proposalName'
           }
-          isActive={sortingObj.column === 'challengeName'}
+          isActive={sortingObj.column === 'proposalName'}
         />
       ),
       className: 'cursor-pointer',
-      dataIndex: 'challengeName',
-      key: 'challengeName',
+      dataIndex: 'proposalName',
+      key: 'proposalName',
       align: alignLeft,
       width: 300,
       ellipsis: true,
-      onHeaderCell: () => onHeaderClick('challengeName'),
+      onHeaderCell: () => onHeaderClick('proposalName'),
     },
 
     {
-      title: t('table:table-fund-id'),
-      dataIndex: 'fundId',
-      key: 'fundId',
+      title: t('table:table-challenge-name'),
+      dataIndex: 'challengeName',
+      key: 'challengeName',
       align: alignLeft,
       width: 74,
       render: (type: any) => {
@@ -104,9 +104,9 @@ const ProductList = ({
     },
 
     {
-      title: t('table:table-total-summary'),
-      dataIndex: 'summary',
-      key: 'summary',
+      title: t('table:table-proposal-link'),
+      dataIndex: 'proposalLink',
+      key: 'proposalLink',
       width: 120,
       align: 'center',
       ellipsis: true,
@@ -114,23 +114,35 @@ const ProductList = ({
         <span className="truncate whitespace-nowrap">{shop}</span>
       ),
     },
+
+    {
+      title: t('table:table-buget-proposal'),
+      dataIndex: 'bugetProposal',
+      key: 'bugetProposal',
+      width: 120,
+      align: 'center',
+      ellipsis: true,
+      render: (shop: any) => (
+        <span className="truncate whitespace-nowrap">{shop}</span>
+      ),
+    },
+
+    // {
+    //   title: t('table:table-summary-proposal'),
+    //   dataIndex: 'summaryProposal',
+    //   key: 'summaryProposal',
+    //   width: 120,
+    //   align: 'center',
+    //   ellipsis: true,
+    //   render: (shop: any) => (
+    //     <span className="truncate whitespace-nowrap">{shop}</span>
+    //   ),
+    // },
 
     {
       title: t('table:table-total-description'),
-      dataIndex: 'description',
-      key: 'description',
-      width: 120,
-      align: 'center',
-      ellipsis: true,
-      render: (shop: any) => (
-        <span className="truncate whitespace-nowrap">{shop}</span>
-      ),
-    },
-
-    {
-      title: t('table:table-total-challenge'),
-      dataIndex: 'totalProposal',
-      key: 'totalProposal',
+      dataIndex: 'descriptionDetail',
+      key: 'descriptionDetail',
       width: 120,
       align: 'center',
       ellipsis: true,
@@ -149,6 +161,42 @@ const ProductList = ({
       render: (type: any) => {
         return <span className="truncate whitespace-nowrap">{type}</span>;
       },
+    },
+
+    {
+      title: t('table:table-up-vote-count'),
+      dataIndex: 'upVoteCount',
+      key: 'upVoteCount',
+      width: 120,
+      align: 'center',
+      ellipsis: true,
+      render: (type: any) => {
+        return <span className="truncate whitespace-nowrap">{type}</span>;
+      },
+    },
+
+    {
+      title: t('table:table-down-vote-count'),
+      dataIndex: 'downVoteCount',
+      key: 'downVoteCount',
+      width: 120,
+      align: 'center',
+      ellipsis: true,
+      render: (type: any) => {
+        return <span className="truncate whitespace-nowrap">{type}</span>;
+      },
+    },
+
+    {
+      title: t('table:table-proposer-User'),
+      dataIndex: 'proposerUser',
+      key: 'proposerUser',
+      width: 120,
+      align: 'center',
+      ellipsis: true,
+      render: (shop: any) => (
+        <span className="truncate whitespace-nowrap">{shop}</span>
+      ),
     },
   ];
 

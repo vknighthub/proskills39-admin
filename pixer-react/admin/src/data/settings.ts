@@ -16,7 +16,7 @@ export const useUpdateSettingsMutation = () => {
       console.log(error);
     },
     onSuccess: (data) => {
-      updateSettings(data?.result?.data?.options);
+      updateSettings(data?.result.data.options);
       toast.success(t('common:successfully-updated'));
     },
     // Always refetch after error or success:

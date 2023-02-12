@@ -20,8 +20,8 @@ export default function ProfilePage() {
           {t('form:form-title-profile-settings')}
         </h1>
       </div>
-      <ProfileUpdateFrom me={data} />
-      <NRCUpdateForm me={data} />
+      <ProfileUpdateFrom me={data?.result.data} />
+      <NRCUpdateForm me={data?.result.data} />
       <ChangePasswordForm />
     </>
   );

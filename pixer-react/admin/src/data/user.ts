@@ -7,11 +7,11 @@ import { useMutation, useQuery, useQueryClient } from 'react-query';
 import { toast } from 'react-toastify';
 import { API_ENDPOINTS } from './client/api-endpoints';
 import { userClient } from './client/user';
-import { User, QueryOptionsType, UserPaginator } from '@/types';
+import { User, UserProfile,QueryOptionsType, UserPaginator, BaseReponse } from '@/types';
 import { mapPaginatorData } from '@/utils/data-mappers';
 
 export const useMeQuery = () => {
-  return useQuery<User, Error>([API_ENDPOINTS.ME], userClient.me);
+  return useQuery< BaseReponse<UserProfile> , Error>([API_ENDPOINTS.ME], userClient.me);
 };
 
 export function useLogin() {

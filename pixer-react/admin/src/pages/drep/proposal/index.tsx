@@ -2,12 +2,12 @@ import { useRouter } from 'next/router';
 import Card from '@/components/common/card';
 import Layout from '@/components/layouts/admin';
 import Search from '@/components/common/search';
-import ChallengeList from '@/components/challenge/challenge-list';
+import ProductList from '@/components/proposal/proposal-list';
 import ErrorMessage from '@/components/ui/error-message';
 import Loader from '@/components/ui/loader/loader';
 import { SortOrder } from '@/types';
 import { useState } from 'react';
-import { useChallengesQuery } from '@/data/challenge';
+import { useProposalQuery } from '@/data/proposal';
 import { useTranslation } from 'next-i18next';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import CategoryTypeFilter from '@/components/product/category-type-filter';
@@ -31,13 +31,13 @@ export default function ProductsPage() {
     setVisible((v) => !v);
   };
 
-  const { products, loading, paginatorInfo, error } = useChallengesQuery({
+  const { products, loading, paginatorInfo, error } = useProposalQuery({
     language: locale,
-    limit: 20,
+    limit: 10,
     page,
-    type,
-    categories: category,
-    name: searchTerm,
+    // type,
+    // categories: category,
+    // name: searchTerm,
     orderBy,
     sortedBy,
   });
@@ -53,7 +53,7 @@ export default function ProductsPage() {
   function handlePagination(current: any) {
     setPage(current);
   }
-
+  console.log(products);
   return (
     <>
       <Card className="mb-8 flex flex-col">
@@ -86,23 +86,9 @@ export default function ProductsPage() {
             'visible h-auto': visible,
             'invisible h-0': !visible,
           })}
-        >
-          <div className="mt-5 flex w-full flex-col border-t border-gray-200 pt-5 md:mt-8 md:flex-row md:items-center md:pt-8">
-            <CategoryTypeFilter
-              className="w-full"
-              onCategoryFilter={({ slug }: { slug: string }) => {
-                setPage(1);
-                setCategory(slug);
-              }}
-              onTypeFilter={({ slug }: { slug: string }) => {
-                setType(slug);
-                setPage(1);
-              }}
-            />
-          </div>
-        </div>
+        ></div>
       </Card>
-      <ChallengeList
+      <ProductList
         products={products}
         paginatorInfo={paginatorInfo}
         onPagination={handlePagination}

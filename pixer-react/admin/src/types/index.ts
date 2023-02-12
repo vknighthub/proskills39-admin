@@ -7,6 +7,11 @@ export type NextPageWithLayout<P = {}> = NextPage<P> & {
 
 
 
+export enum StatusUser {
+  N = 'N',
+  C = 'C',
+}
+
 export enum SortOrder {
   Asc = 'asc',
   Desc = 'desc',
@@ -65,31 +70,63 @@ export enum Permission {
 
 
 export interface Fund {
-  name : string
-  fundId: number;
-  fundName: string;
-  slug : string;
-  totalChallenge : number;
-  totalProposal : number
+  currentpage : number
+  totalpage : number
+  limit : number
+  data : {
+    name : string
+    fundId: number;
+    fundName: string;
+    slug : string;
+    totalChallenge : number;
+    totalProposal : number
+  }
 }
 
 
 export interface Challenge {
-  challengeId: number;
-  fundId: number;
-  challengeName : string;
-  tagline : string;
-  description : string,
-  summary : string
-  imageUrl : string
-  imageAltText : string
-  challengeUrl : string
-  totalProposal : number
-  voteCount : number;
-  commentCount : number;
-  slug : string;
+  currentpage : number
+  totalpage : number
+  limit : number
+  data :{
+    challengeId: number;
+    fundId: number;
+    challengeName : string;
+    tagline : string;
+    description : string,
+    summary : string
+    imageUrl : string
+    imageAltText : string
+    challengeUrl : string
+    totalProposal : number
+    voteCount : number;
+    commentCount : number;
+    slug : string;
+  }[]
+  
 }
 
+
+
+export interface Proposal {
+  currentpage : number
+  totalpage : number
+  limit : number
+  data :{
+  proposalId: number;
+  proposalName: string;
+  challengeName : string;
+  proposalLink : string;
+  bugetProposal : number,
+  summaryProposal : string
+  descriptionDetail : string
+  proposerName : string
+  proposerUser : string
+  voteCount : number;
+  upVoteCount : number
+  downVoteCount : number;
+  }[]
+}
 
 
 export interface Proposal {
@@ -107,20 +144,36 @@ export interface Proposal {
   downVoteCount : number;
 }
 
-
-export interface Proposal {
-  proposalId: number;
-  proposalName: string;
-  challengeName : string;
-  proposalLink : string;
-  bugetProposal : number,
-  summaryProposal : string
-  descriptionDetail : string
-  proposerName : string
-  proposerUser : string
-  voteCount : number;
-  upVoteCount : number
-  downVoteCount : number;
+export interface UserProfile{
+  usrid: number,
+  username: string,
+  fullname:  string,
+  firstname:  string,
+  midname:  string,
+  lastname: string,
+  gender: number,
+  country:  string,
+  city:  string,
+  province: string,
+  district:  string,
+  address:  string,
+  email:  string,
+  birthday: any,
+  phone:  string,
+  lastlogintime:  string,
+  status:  string,
+  datecreated:  string,
+  datemodified: any,
+  islogin: boolean,
+  expiretime: any,
+  failnumber: any,
+  avatar:  string,
+  faceid: any,
+  licensetype: any,
+  licenseid: any,
+  aboutme: any,
+  descriptions: string,
+  lastdelivery:  string,
 }
 
 
@@ -158,12 +211,26 @@ export interface PaginatorInfo<T> {
   total: number;
 }
 
+export interface MappedPaginatorInfos {
+  currentpage : number
+  limit : number
+  totalpage : number
+  hasMorePages: boolean;
+}
+
+export interface PaginatorInfos<T> {
+  currentpage : number
+  data: T[];
+  limit : number
+  totalpage : number
+}
+
 export interface BaseReponse<T> {
   errorcode : number;
   messagedetail : string;
   result : {
     status : number;
-    data : T[] 
+    data : T 
   }
   data : T[]
   total: number,
@@ -178,6 +245,27 @@ export interface BaseReponse<T> {
   next_page_url: string
   prev_page_url: string
 }
+
+// export interface BaseReponse<T> {
+//   errorcode : number;
+//   messagedetail : string;
+//   result : {
+//     status : number;
+//     data : T 
+//   }
+//   data : T[]
+//   total: number,
+//   current_page: number,
+//   count: number,
+//   last_page: number,
+//   firstItem: number,
+//   lastItem: number,
+//   per_page: number,
+//   first_page_url:string
+//   last_page_url:string
+//   next_page_url: string
+//   prev_page_url: string
+// }
 
 export interface LoginInput {
   username: string;
@@ -442,6 +530,8 @@ export interface User {
   address: Address[];
   orders?: OrderPaginator;
 }
+
+
 
 export interface UpdateUser {
   name?: string;

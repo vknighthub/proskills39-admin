@@ -16,13 +16,14 @@ import {
   UserPaginator,
   UserQueryOptions,
   UpdateNRC,
+  UserProfile,
 } from '@/types';
 import { API_ENDPOINTS } from './api-endpoints';
 import { HttpClient } from './http-client';
 
 export const userClient = {
   me: () => {
-    return HttpClient.get<User>(API_ENDPOINTS.ME);
+    return HttpClient.get<BaseReponse<UserProfile>>(API_ENDPOINTS.ME);
   },
   login: (variables: LoginInput) => {
     return HttpClient.post<BaseReponse<AuthResponse>>(API_ENDPOINTS.LOGIN, variables);

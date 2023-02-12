@@ -46,7 +46,7 @@ export const useUpdateProductMutation = () => {
       const generateRedirectUrl = router.query.shop
         ? `/${router.query.shop}${Routes.product.list}`
         : Routes.product.list;
-      await router.push(`${generateRedirectUrl}/${data?.slug}/edit`, undefined, {
+      await router.push(`${generateRedirectUrl}/${data}/edit`, undefined, {
         locale: Config.defaultLanguage,
       });
       toast.success(t('common:successfully-updated'));
@@ -100,7 +100,7 @@ export const useFundsQuery = (
   );
   console.log(data)
   return {
-    products: data?.result?.data ?? [],
+    products: data?.result.data ?? [] ,
     paginatorInfo: mapPaginatorData(undefined),
     error,
     loading: isLoading,

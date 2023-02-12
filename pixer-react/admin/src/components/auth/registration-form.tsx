@@ -53,7 +53,6 @@ const RegistrationForm = () => {
   const { t } = useTranslation();
 
   async function onSubmit({ fullname, email, username }: FormValues) {
-    console.log('ádasd');
     registerUser(
       {
         fullname,

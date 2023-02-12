@@ -10,8 +10,10 @@ import FileInput from '@/components/ui/file-input';
 import pick from 'lodash/pick';
 
 type FormValues = {
-  name: string;
+  username: string;
   email: string;
+  phone: string;
+  fullname: string;
   profile: {
     id: string;
     bio: string;
@@ -34,25 +36,24 @@ export default function ProfileUpdate({ me }: any) {
     formState: { errors },
   } = useForm<FormValues>({
     defaultValues: {
-      ...(me &&
-        pick(me, ['name', 'profile.bio', 'profile.contact', 'profile.avatar','email'])),
+      ...(me && pick(me, ['fullname', 'phone', 'email'])),
     },
   });
 
   async function onSubmit(values: FormValues) {
-    const { name, profile, email } = values;
+    const { username, profile, email } = values;
     updateUser({
-      id: me?.id,
+      id: me?.usrid,
       input: {
-        name: name,
+        name: username,
         email: email,
         profile: {
-          id: me?.profile?.id,
+          id: me?.usrid,
           bio: profile?.bio,
-          contact: profile?.contact,
+          contact: me.phone,
           avatar: {
             thumbnail: profile?.avatar?.thumbnail,
-            original: profile?.avatar?.original,
+            original: me.avatar,
             id: profile?.avatar?.id,
           },
         },
@@ -66,7 +67,7 @@ export default function ProfileUpdate({ me }: any) {
         <Description
           title={t('form:input-label-avatar')}
           details={t('form:avatar-help-text')}
-          className="sm:pe-4 md:pe-5 w-full px-0 pb-5 sm:w-4/12 sm:py-8 md:w-1/3"
+          className="w-full px-0 pb-5 sm:w-4/12 sm:py-8 sm:pe-4 md:w-1/3 md:pe-5"
         />
 
         <Card className="w-full sm:w-8/12 md:w-2/3">
@@ -78,28 +79,28 @@ export default function ProfileUpdate({ me }: any) {
         <Description
           title={t('form:form-title-information')}
           details={t('form:profile-info-help-text')}
-          className="sm:pe-4 md:pe-5 w-full px-0 pb-5 sm:w-4/12 sm:py-8 md:w-1/3"
+          className="w-full px-0 pb-5 sm:w-4/12 sm:py-8 sm:pe-4 md:w-1/3 md:pe-5"
         />
 
         <Card className="mb-5 w-full sm:w-8/12 md:w-2/3">
           <Input
             label={t('form:input-label-name')}
-            {...register('name')}
-            error={t(errors.name?.message!)}
+            {...register('fullname')}
+            error={t(errors.fullname?.message!)}
             variant="outline"
             className="mb-5"
           />
-          <TextArea
+          {/* <TextArea
             label={t('form:input-label-bio')}
             {...register('profile.bio')}
             error={t(errors.profile?.bio?.message!)}
             variant="outline"
             className="mb-6"
-          />
+          /> */}
           <Input
             label={t('form:input-label-contact')}
-            {...register('profile.contact')}
-            error={t(errors.profile?.contact?.message!)}
+            {...register('phone')}
+            error={t(errors.phone?.message!)}
             variant="outline"
             className="mb-5"
           />
@@ -112,7 +113,7 @@ export default function ProfileUpdate({ me }: any) {
           />
         </Card>
 
-        <div className="text-end w-full">
+        <div className="w-full text-end">
           <Button loading={loading} disabled={loading}>
             {t('form:button-label-save')}
           </Button>

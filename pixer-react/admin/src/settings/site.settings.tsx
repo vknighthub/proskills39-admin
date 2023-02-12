@@ -56,10 +56,10 @@ export const siteSettings = {
             title: 'Proposal',
             path: '/drep/proposal',
           },
-          {
-            title: 'Assessment',
-            path: '/drep/assessment',
-          },
+          // {
+          //   title: 'Assessment',
+          //   path: '/drep/assessment',
+          // },
         ],
       },
       {

@@ -13,47 +13,47 @@ import { mapPaginatorData } from '@/utils/data-mappers';
 import { Routes } from '@/config/routes';
 import { Config } from '@/config';
 
-export const useCreateProductMutation = () => {
-  const queryClient = useQueryClient();
-  const router = useRouter();
-  const { t } = useTranslation();
-  return useMutation(challegerClient.create, {
-    onSuccess: async () => {
-      const generateRedirectUrl = router.query.shop
-        ? `/${router.query.shop}${Routes.product.list}`
-        : Routes.product.list;
-      await Router.push(generateRedirectUrl, undefined, {
-        locale: Config.defaultLanguage,
-      });
-      toast.success(t('common:successfully-created'));
-    },
-    // Always refetch after error or success:
-    onSettled: () => {
-      queryClient.invalidateQueries(API_ENDPOINTS.CHALLEGE);
-    },
-  });
-};
+// export const useCreateProductMutation = () => {
+//   const queryClient = useQueryClient();
+//   const router = useRouter();
+//   const { t } = useTranslation();
+//   return useMutation(challegerClient.create, {
+//     onSuccess: async () => {
+//       const generateRedirectUrl = router.query.shop
+//         ? `/${router.query.shop}${Routes.product.list}`
+//         : Routes.product.list;
+//       await Router.push(generateRedirectUrl, undefined, {
+//         locale: Config.defaultLanguage,
+//       });
+//       toast.success(t('common:successfully-created'));
+//     },
+//     // Always refetch after error or success:
+//     onSettled: () => {
+//       queryClient.invalidateQueries(API_ENDPOINTS.CHALLEGE);
+//     },
+//   });
+// };
 
-export const useUpdateProductMutation = () => {
-  const { t } = useTranslation();
-  const queryClient = useQueryClient();
-  const router = useRouter();
-  return useMutation(challegerClient.update, {
-    onSuccess: async (data) => {
-      const generateRedirectUrl = router.query.shop
-        ? `/${router.query.shop}${Routes.product.list}`
-        : Routes.product.list;
-      await router.push(`${generateRedirectUrl}/${data?.slug}/edit`, undefined, {
-        locale: Config.defaultLanguage,
-      });
-      toast.success(t('common:successfully-updated'));
-    },
-    // Always refetch after error or success:
-    onSettled: () => {
-      queryClient.invalidateQueries(API_ENDPOINTS.CHALLEGE);
-    },
-  });
-};
+// export const useUpdateProductMutation = () => {
+//   const { t } = useTranslation();
+//   const queryClient = useQueryClient();
+//   const router = useRouter();
+//   return useMutation(challegerClient.update, {
+//     onSuccess: async (data) => {
+//       const generateRedirectUrl = router.query.shop
+//         ? `/${router.query.shop}${Routes.product.list}`
+//         : Routes.product.list;
+//       await router.push(`${generateRedirectUrl}/${data}/edit`, undefined, {
+//         locale: Config.defaultLanguage,
+//       });
+//       toast.success(t('common:successfully-updated'));
+//     },
+//     // Always refetch after error or success:
+//     onSettled: () => {
+//       queryClient.invalidateQueries(API_ENDPOINTS.CHALLEGE);
+//     },
+//   });
+// };
 
 export const useDeleteProductMutation = () => {
   const queryClient = useQueryClient();
@@ -87,6 +87,7 @@ export const useChallengesQuery = (
   options: any = {}
 ) => {
   const { data, error, isLoading } = useQuery<BaseReponse<Challenge>, Error>(
+    
     [API_ENDPOINTS.CHALLEGE, params],
     ({ queryKey, pageParam }) =>
     challegerClient.paginated(Object.assign({}, queryKey[1], pageParam)),
@@ -95,9 +96,10 @@ export const useChallengesQuery = (
       ...options,
     }
   );
+ 
   return {
-    products: data?.result?.data ?? [],
-    paginatorInfo: mapPaginatorData(undefined),
+    products: data?.result?.data  ,
+    paginatorInfo: mapPaginatorData(data?.result?.data),
     error,
     loading: isLoading,
   };

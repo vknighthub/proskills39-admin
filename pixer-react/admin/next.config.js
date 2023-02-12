@@ -22,7 +22,8 @@ const nextConfig = {
       'pixarlaravel.s3.ap-southeast-1.amazonaws.com',
       'lh3.googleusercontent.com',
       'i.ibb.co',
-      'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com'
+      'pickbazarlaravel.s3.ap-southeast-1.amazonaws.com',
+      'encrypted-tbn0.gstatic.com'
     ],
   },
   ...(process.env.APPLICATION_MODE === 'production' && {
