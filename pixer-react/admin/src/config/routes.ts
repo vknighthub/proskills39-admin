@@ -13,6 +13,13 @@ export const Routes = {
   storeKeepers: '/vendor/store_keepers',
   profileUpdate: '/profile-update',
   checkout: '/orders/checkout',
+  assessment: {
+    ...routesFactory('/drep/assessment'),
+  },
+  proposal: {
+    ...routesFactory('/drep/proposal'),
+  },
+
   user: {
     ...routesFactory('/users'),
   },
@@ -88,6 +95,11 @@ function routesFactory(endpoint: string) {
   return {
     list: `${endpoint}`,
     create: `${endpoint}/create`,
+    summary: (slug: string, shop?: string) => {
+      return shop
+        ? `/${shop}${endpoint}/${slug}/summary`
+        : `${endpoint}/${slug}/summary`;
+    },
     editWithoutLang: (slug: string, shop?: string) => {
       return shop
         ? `/${shop}${endpoint}/${slug}/edit`

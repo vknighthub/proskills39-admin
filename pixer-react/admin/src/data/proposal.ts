@@ -55,6 +55,11 @@ import { Config } from '@/config';
 //   });
 // };
 
+export const useSummaryProposalMutation = () => {
+  return useMutation(ProposalClient.summaryProposal);
+};
+
+
 export const useDeleteProductMutation = () => {
   const queryClient = useQueryClient();
   const { t } = useTranslation();

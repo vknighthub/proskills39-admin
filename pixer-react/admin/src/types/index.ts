@@ -129,6 +129,13 @@ export interface Proposal {
 }
 
 
+export interface SummaryProposal {
+  proposalId : number,
+  language: string,
+  summary: string
+  
+}
+
 export interface Proposal {
   proposalId: number;
   proposalName: string;

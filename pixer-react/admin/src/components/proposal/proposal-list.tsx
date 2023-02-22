@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Table } from '@/components/ui/table';
 import { siteSettings } from '@/settings/site.settings';
 import usePrice from '@/utils/use-price';
-import Badge from '@/components/ui/badge/badge';
+import ActionButtons from '@/components/common/action-buttons';
 import { Router, useRouter } from 'next/router';
 import { useTranslation } from 'next-i18next';
 import {
@@ -15,6 +15,8 @@ import {
 import { useIsRTL } from '@/utils/locals';
 import { useState } from 'react';
 import TitleWithSort from '@/components/ui/title-with-sort';
+import LanguageSwitcher from '../ui/lang-action/language-switcher';
+import { Routes } from '@/config/routes';
 
 export type IProps = {
   products: Proposal | undefined;
@@ -196,6 +198,20 @@ const ProductList = ({
       ellipsis: true,
       render: (shop: any) => (
         <span className="truncate whitespace-nowrap">{shop}</span>
+      ),
+    },
+
+    {
+      title: t('table:table-item-actions'),
+      dataIndex: 'slug',
+      key: 'actions',
+      align: 'center',
+      width: 120,
+      render: (slug: string, record: Proposal) => (
+        <ActionButtons
+          id={record?.proposalId.toString()}
+          editUrl={Routes.proposal.summary(record?.proposalId.toString())}
+        />
       ),
     },
   ];

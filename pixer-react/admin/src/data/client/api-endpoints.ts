@@ -2,6 +2,7 @@ export const API_ENDPOINTS = {
   FUND:'drep/getallfund',
   CHALLEGE:'drep/admin/getallchallenge',
   PROPOSAL:'drep/admin/getallproposal',
+  SUMMARYPROSAL : '/drep/admin/postsummaryproposal',
   ATTACHMENTS: 'attachments',
   ANALYTICS: 'http://localhost:5000/api/analytics',
   ATTRIBUTES: 'attributes',

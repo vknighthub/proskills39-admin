@@ -64,13 +64,13 @@ const LanguageSwitcher = ({
   }, [refs.reference, refs.floating, update]);
 
   return (
-    <div className={`w-full flex items-center justify-end gap-5 ${className}`}>
+    <div className={`flex w-full items-center justify-end gap-5 ${className}`}>
       <ActionButtons
         id={record?.id}
         editUrl={routes.editWithoutLang(slug)}
         deleteModalView={deleteModalView}
       />
-      {Config.defaultLanguage === router.locale && (
+      {/* {Config.defaultLanguage === router.locale && (
         <Popover className="relative inline-block">
           <Popover.Button
             className="p-2 text-base transition duration-200 hover:text-heading opacity-80"
@@ -115,7 +115,7 @@ const LanguageSwitcher = ({
             </Popover.Panel>
           </div>
         </Popover>
-      )}
+      )} */}
     </div>
   );
 };

@@ -3,11 +3,12 @@
   "input-label-funds" : "Funds",
   "input-label-challenges" : "Challenges",
   "input-label-user-name": "User Name",
-
-
+  "input-label-proposal-id": "Proposal Id",
+  "input-label-summary": "Summary",
+  "input-language-type": "Language Type",
   "error-user-name-required" : "User Name is Required!",
 
-
+  "form-summary-proposal": "Enter the proposal summary here",
 
   
   "form-title-permission": "Permission",

@@ -5,7 +5,8 @@ import {
   GetParams,
   ProductQueryOptions,
   BaseReponse,
-  Proposal
+  Proposal,
+  SummaryProposal
 } from '@/types';
 import { API_ENDPOINTS } from './api-endpoints';
 import { crudFactory } from './curd-factory';
@@ -45,5 +46,8 @@ export const ProposalClient = {
       ...params,
       search: HttpClient.formatSearchParams({ shop_id }),
     });
+  },
+  summaryProposal: (variables: SummaryProposal) => {
+    return HttpClient.post<any>(API_ENDPOINTS.SUMMARYPROSAL, variables);
   },
 };

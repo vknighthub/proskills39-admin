@@ -40,7 +40,9 @@ export const useUpdateProductMutation = () => {
   const queryClient = useQueryClient();
   const router = useRouter();
   return useMutation(productClient.update, {
+    
     onSuccess: async (data) => {
+     
       const generateRedirectUrl = router.query.shop
         ? `/${router.query.shop}${Routes.product.list}`
         : Routes.product.list;
